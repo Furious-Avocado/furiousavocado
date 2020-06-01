@@ -20,19 +20,58 @@
 
     <meta property="og:title" content="Furious Avocado">
     <meta property="og:description" content="Highly professional game development studio.">
-    <meta property="og:image" content="http://furiousavocado.com/logo.jpg">
+    <meta property="og:image" content="https://furiousavocado.com/logo.jpg">
     <meta property="og:image:width" content="619">
     <meta property="og:image:height" content="658">
-    <meta property="og:url" content="http://furiousavocado.com">
+    <meta property="og:url" content="https://furiousavocado.com">
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image">
-
     <meta property="og:site_name" content="Furious Avocado">
-    <meta name="twitter:image:alt" content="Furious avocado logo">
+    <meta name="twitter:image:alt" content="Furious Avocado logo">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <img src="logo.jpg" alt="Furious avocado logo" class="center" style="margin: 0 auto; display: block; max-width: 100%;">
+    <header>
+        <!-- <img class="nav-bg" src="images/nav.png">
+        <img class="logo" src="images/logo.png" alt="Furious Avocado Logo"> -->
+        <nav class="nav-collapse">
+            <div class="nav-logo">FURIOUS AVOCADO</div>
+            <input type="checkbox" id="navToggle">
+            <label for="navToggle" class="nav-icon"><i class="fa fa-bars"></i></label>
+            <label for="navToggle" class="nav-mask"></label>
+            <ul>
+                <li class="menu-item"><a href="#home">HOME</a></li>
+                <li class="menu-item"><a href="#about">ABOUT US</a></li>
+                <li class="menu-item"><a href="#team">OUR TEAM</a></li>
+                <li class="menu-item"><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>HOME</h2>
+        <div style="height: 800px;"></div>
+    </section>
+    <section id="about">
+        <h2>ABOUT US</h2>
+        <div style="height: 800px;"></div>
+    </section>
+    <section id="team">
+        <h2>OUR TEAM</h2>
+        <div style="height: 800px;"></div>
+    </section>
+    <section id="contact">
+        <h2>CONTACT</h2>
+        <div style="height: 800px;"></div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/gumshoe@4.0/dist/gumshoe.polyfills.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
