@@ -262,8 +262,7 @@ h2 {
 
 .avocados {
   background-image: url(../images/avocados.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
 }
 
 #home {
@@ -289,6 +288,16 @@ h2 {
   padding: 0 20px;
 }
 
+.games {
+  text-align: center;
+  margin: 20px 50px 50px;
+}
+
+.game-icon {
+  display: inline-block;
+  margin: 5px 10px;
+}
+
 .who-we-are {
   text-align: center;
   color: #FFFFFF;
@@ -299,13 +308,36 @@ h2 {
   padding: 0 20px;
 }
 
+.people {
+  text-align: center;
+  max-width: 1171px;
+  margin: 5px auto 80px;
+}
+
+.person {
+  display: inline-block;
+  width: 250px;
+  margin: 5px 20px;
+}
+
+.person-icon {
+  display: inline-block;
+}
+
+.person-name {
+  color: #356211;
+  font-size: 34px;
+  margin-top: -20px;
+}
+
 .email {
   text-align: center;
   font-size: 34px;
-  margin: 10px 0 35px;
+  margin: 10px 0 55px;
 }
 
 .email img {
+  display: inline-block;
   vertical-align: middle;
 }
 
