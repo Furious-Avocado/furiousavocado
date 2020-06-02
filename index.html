@@ -35,44 +35,71 @@
 </head>
 
 <body>
-    <header>
+    <header class="header-bg">
         <nav class="nav-collapse">
-            <!-- <img class="nav-bg" src="images/nav@2x.png"> -->
             <div class="nav-logo">
                 <img class="logo" src="images/logo.png" srcset="images/logo@2x.png 2x" alt="Furious Avocado Logo">
-                <img class="logo-text" src="images/logo-text.png" srcset="images/logo-text@2x.png 2x" alt="Furious Avocado Logo">
             </div>
+
             <input type="checkbox" id="navToggle">
             <label for="navToggle" class="nav-icon"><i class="fa fa-bars"></i></label>
             <label for="navToggle" class="nav-mask"></label>
+
             <ul>
-                <li class="menu-item"><a href="#home">HOME</a></li>
-                <li class="menu-item"><a href="#about">ABOUT US</a></li>
-                <li class="menu-item"><a href="#team">OUR TEAM</a></li>
-                <li class="menu-item"><a href="#contact">CONTACT</a></li>
+                <li class="nav-item"><a href="#home">HOME</a></li>
+                <li class="nav-item"><a href="#about">ABOUT US</a></li>
+                <li class="nav-item"><a href="#team">OUR TEAM</a></li>
+                <li class="nav-item"><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="home">
-        <h2>HOME</h2>
-        <div style="height: 800px;"></div>
+        <img class="img-full" src="images/home.jpg">
     </section>
+
     <section id="about">
-        <h2>ABOUT US</h2>
-        <div style="height: 800px;"></div>
+        <div class="border-thin">
+            <h2>ABOUT FURIOUS AVOCADO</h2>
+        </div>
+
+        <div class="avocados">
+            <div class="intro">We are a mobile gaming studio that makes unique F2P games. We’re small, adaptable
+                and bold and we only do what hasn’t been done before. We like all sorts of games and are never afraid
+                to delve into unexplored genres and game concepts.
+            </div>
+        </div>
+
+        <div class="border-big">
+            <h2>WHAT WE DO</h2>
+            <div class="what-we-do">WE TAKE FUN EXPERIENCES AND BUILD GAMES AROUND THEM</div>
+
+            <h2>PROTOTYPE GAMES</h2>
+            <div class="games">
+
+            </div>
+        </div>
+        <img class="img-full" src="images/games.jpg">
     </section>
+
     <section id="team">
-        <h2>OUR TEAM</h2>
-        <div style="height: 800px;"></div>
-    </section>
-    <section id="contact">
-        <h2>CONTACT</h2>
-        <div style="height: 800px;"></div>
+        <div class="border-big">
+            <h2>WHO WE ARE</h2>
+            <div class="who-we-are">A small group of friends and professionals. Often resembling a tribe when it comes
+                to brainstorming or catching a deadline.</div>
+        </div>
+        <img class="img-full" src="images/team.jpg" srcset="images/team@2x.png 2x">
     </section>
 
+    <footer class="footer-bg" id="contact">
+        <h2>CONTACT US</h2>
+        <div class="email"><img src="images/mail.png"><a
+                href="mailto:contact@furiousavocado.com">contact@furiousavocado.com</a></div>
+        <div class="copyright">&copy; 2020 FURIOUS AVOCADO</div>
+    </footer>
 
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/gumshoe@4.0/dist/gumshoe.polyfills.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/gumshoe@5/dist/gumshoe.polyfills.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 

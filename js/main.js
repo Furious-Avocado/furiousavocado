@@ -2,6 +2,11 @@
 
   "use strict";
 
-  var gum = new Gumshoe('.nav-collapse a');
+  var gum = new Gumshoe('.nav-collapse a', {
+    reflow: true,
+    offset: function () {
+      return 80;
+    }
+  });
 
 })();
