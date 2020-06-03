@@ -14,20 +14,16 @@ a:hover {
   outline: 0;
 }
 
-@-webkit-viewport { width: device-width; }
-@-moz-viewport { width: device-width; }
-@-ms-viewport { width: device-width; }
-@-o-viewport { width: device-width; }
-@viewport { width: device-width; }
-
-
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
+  font-size: 10px;
 }
 
 body {
   font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: #FFFFFF;
   margin-bottom: 1px;
 }
 
@@ -41,21 +37,12 @@ header {
   top: 0;
   width: 100%;
   z-index: 3;
-  line-height: 0;
-}
-
-.nav-bg {
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 93px;
 }
 
 .nav-logo {
   position: relative;
   height: 76px;
   line-height: 76px;
-  font-size: 24px;
   float: left;
 }
 
@@ -63,12 +50,6 @@ header {
   position: absolute;
   top: 5px;
   left: 40px;
-}
-
-.logo-text {
-  position: absolute;
-  top: 130px;
-  left: 15px;
 }
 
 .nav-collapse {
@@ -88,20 +69,19 @@ header {
 
 .nav-collapse ul li a {
   display: block;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
   width: 100%;
-  padding: 20px 10px;
-  font-size: 33px;
-  line-height: normal;
+  padding: 2.0rem 1.0rem;
+  font-size: 3.3rem;
   color: #FFFFFF;
   text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-.nav-collapse a:hover {
+.nav-collapse ul li a:hover {
   color: #F2E980;
 }
 
-.nav-collapse .active a {
+.nav-collapse ul .active a {
   color: #F2E980;
 }
 
@@ -111,15 +91,6 @@ header {
 
 .nav-icon {
   display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100px;
-  height: 76px;
-  line-height: 76px;
-  font-size: 27px;
-  color: #FFFFFF;
-  text-align: center;
 }
 
 .nav-mask {
@@ -136,19 +107,14 @@ header {
 
   .nav-logo {
     width: 100%;
+    height: 60px;
+    line-height: 60px;
   }
 
   .logo {
-    height: 66px;
+    height: 50px;
     top: 5px;
     left: 10px;
-  }
-
-  .logo-text {
-    width: 140px;
-    top: 10px;
-    left: 50%;
-    margin-left: -70px;
   }
 
   .nav-collapse ul {
@@ -156,37 +122,30 @@ header {
     width: 100%;
     max-height: 0;
     overflow: hidden;
-    -webkit-transition: max-height 0.3s;
-    -moz-transition: max-height 0.3s;
-    -ms-transition: max-height 0.3s;
-    -o-transition: max-height 0.3s;
     transition: max-height 0.3s;
   }
 
   .nav-collapse ul li {
-      text-align: left;
       width: 100%;
   }
 
   .nav-collapse ul li a {
-    display: block;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    width: 100%;
-    padding: 20px 20px;
-    text-align: center;
-    font-size: 16px;
-    line-height: normal;
-    color: #fff;
-    text-decoration: none;
+    font-size: 2rem;
+    padding: 2rem;
   }
 
   .nav-icon {
     display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 60px;
   }
 
   .nav-icon .hamburger {
     width: 34px;
-    margin: 27px auto 0;
+    margin: 19px auto 0;
   }
 
   .nav-icon span {
@@ -204,7 +163,7 @@ header {
   }
 
   #navToggle:checked ~ ul {
-      max-height: 256px;
+    max-height: 256px;
   }
 
   #navToggle:checked ~ .nav-icon span:first-child
@@ -225,11 +184,9 @@ header {
 }
 
 h2 {
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 50px;
+  padding: 5px 0 8px;
+  font-size: 5.0rem;
   font-weight: 400;
-  padding: 10px 10px;
 }
 
 .img-full {
@@ -239,50 +196,51 @@ h2 {
 
 .header-bg {
   border: 1px solid transparent;
-  border-image: url(../images/header.png);
+  border-image: url(../images/Header.png);
   border-image-slice: 30 260 38 285 fill;
   border-image-width: 30 260 38 285;
   padding-bottom: 30px;
 }
 
 .border-big {
+  position: relative;
+  z-index: 1;
   border: 1px solid transparent;
-  border-image: url(../images/border-big.png);
+  border-image: url(../images/Board_Big.png);
   border-image-slice: 80 275 80 265 fill;
   border-image-width: 80 275 80 265;
   padding: 50px 0 48px;
-  position: relative;
-  z-index: 1;
   margin-top: -56px;
   margin-bottom: -48px;
 }
 
 .border-thin {
+  position: relative;
+  z-index: 1;
   border: 1px solid transparent;
-  border-image: url(../images/border-thin.png);
+  border-image: url(../images/Board_Thin.png);
   border-image-slice: 55 280 40 280 fill;
   border-image-width: 55 280 40 280;
   padding: 32px 0 15px;
-  position: relative;
-  z-index: 1;
   margin-top: -38px;
   margin-bottom: -20px;
 }
 
 .footer-bg {
+  position: relative;
+  z-index: 1;
   border: 1px solid transparent;
-  border-image: url(../images/footer.png);
+  border-image: url(../images/Footer.png);
   border-image-slice: 50 280 80 280 fill;
   border-image-width: 50 280 80 280;
   padding: 26px 0 0;
-  position: relative;
-  z-index: 1;
   margin-top: -30px;
 }
 
 .avocados {
   background-image: url(../images/avocados.png);
   background-repeat: repeat;
+  background-position: center;
 }
 
 section {
@@ -290,58 +248,51 @@ section {
 }
 
 #home {
-  margin-top: 80px;
+  margin-top: 95px;
 }
 
 .intro {
-  text-align: center;
   color: #356211;
-  font-size: 34px;
+  font-size: 3.4rem;
   font-weight: 300;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 90px 20px 100px;
+  padding: 9.0rem 2.0rem 10.0rem;
 }
 
 .what-we-do {
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 34px;
+  font-size: 3.4rem;
   max-width: 1100px;
-  margin: -5px auto 30px;
-  padding: 0 20px;
+  margin: -0.5rem auto 3.0rem;
+  padding: 0 4.0rem;
 }
 
 .games {
-  text-align: center;
-  margin: 20px 50px 50px;
+  margin: 2.0rem 0.0rem 5.0rem;
 }
 
 .game-icon {
   display: inline-block;
-  margin: 5px 10px;
+  margin: 0.5rem 1.0rem;
 }
 
 .who-we-are {
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 34px;
+  font-size: 3.4rem;
   font-weight: 300;
   max-width: 1100px;
-  margin: -5px auto 30px;
-  padding: 0 20px;
+  margin: -0.5rem auto 3.0rem;;
+  padding: 0 2.0rem;
 }
 
 .people {
-  text-align: center;
   max-width: 1171px;
-  margin: 5px auto 80px;
+  margin: 0 auto 8.0rem;
 }
 
 .person {
   display: inline-block;
-  width: 250px;
-  margin: 5px 20px;
+  width: 235px;
+  margin: 0.5rem 2.0rem;
 }
 
 .person-icon {
@@ -350,32 +301,102 @@ section {
 
 .person-name {
   color: #356211;
-  font-size: 34px;
-  margin-top: -20px;
+  font-size: 3.4rem;
+  margin-top: -3.0rem;
 }
 
 .email {
-  text-align: center;
-  font-size: 34px;
-  margin: 10px 0 55px;
+  font-size: 3.4rem;
+  margin: 1.0rem 0 5.5rem;
 }
 
 .email img {
   display: inline-block;
   vertical-align: middle;
+  width: 9.1rem;
 }
 
 .email a {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-  text-decoration: none;
   color: #356211;
-  margin-left: 20px;
+  margin-left: 2.0rem;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 .copyright {
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: 300;
-  padding-bottom: 3px;
+  padding-bottom: 0.3rem;
+}
+
+@media screen and (max-width: 768px) {
+
+  html {
+    font-size: 8px;
+  }
+
+  .header-bg {
+    border-image: url(../images/Header_Small.png);
+    border-image-slice: 15 130 19 142 fill;
+    border-image-width: 15 130 19 142;
+    padding-bottom: 15px;
+  }
+  
+  .border-big {
+    border-image: url(../images/Board_Big_Small.png);
+    border-image-slice: 40 138 40 133 fill;
+    border-image-width: 40 138 40 133;
+    padding: 25px 0 24px;
+    margin-top: -28px;
+    margin-bottom: -24px;
+  }
+  
+  .border-thin {
+    border-image: url(../images/Board_Thin_Small.png);
+    border-image-slice: 28 140 20 140 fill;
+    border-image-width: 28 140 20 140;
+    padding: 15px 0 7px;
+    margin-top: -19px;
+    margin-bottom: -10px;
+  }
+  
+  .footer-bg {
+    border-image: url(../images/Footer_Small.png);
+    border-image-slice: 25 140 40 140 fill;
+    border-image-width: 25 140 40 140;
+    padding: 13px 0 0;
+    margin-top: -15px;
+  }
+
+  .person {
+    width: 190px;
+  }
+
+  #home {
+    margin-top: 65px;
+  }
+
+  .copyright {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-bottom: 0.2rem;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 450px) {
+
+  html {
+    font-size: 6px;
+  }
+
+  .person {
+    width: 141px;
+    margin: 0.5rem 1.0rem;
+  }
+  
 }
