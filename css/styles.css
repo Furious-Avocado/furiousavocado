@@ -103,86 +103,6 @@ header {
   z-index: -1;
 }
 
-@media screen and (max-width: 768px) {
-
-  .nav-logo {
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-  }
-
-  .logo {
-    height: 50px;
-    top: 5px;
-    left: 10px;
-  }
-
-  .nav-collapse ul {
-    margin-right: 0px;
-    width: 100%;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s;
-  }
-
-  .nav-collapse ul li {
-      width: 100%;
-  }
-
-  .nav-collapse ul li a {
-    font-size: 2rem;
-    padding: 2rem;
-  }
-
-  .nav-icon {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100px;
-    height: 60px;
-  }
-
-  .nav-icon .hamburger {
-    width: 34px;
-    margin: 19px auto 0;
-  }
-
-  .nav-icon span {
-    display: block;
-    width: 34px;
-    height: 4px;
-    margin-bottom: 4px;
-    background: #FFFFFF;
-    border-radius: 3px;
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
-  }
-
-  #navToggle:checked ~ .nav-mask {
-    display: block;
-  }
-
-  #navToggle:checked ~ ul {
-    max-height: 256px;
-  }
-
-  #navToggle:checked ~ .nav-icon span:first-child
-  {
-    transform: translate(0, 8px) rotate(-45deg) ;
-  }
-
-  #navToggle:checked ~ .nav-icon span:nth-child(2)
-  {
-    opacity: 0;
-  }
-
-  #navToggle:checked ~ .nav-icon span:last-child
-  {
-    transform: translate(0, -8px) rotate(45deg) ;
-  }
-
-}
-
 h2 {
   padding: 5px 0 8px;
   font-size: 5.0rem;
@@ -249,6 +169,10 @@ section {
 
 #home {
   margin-top: 95px;
+}
+
+.img-main {
+  padding: 5rem;
 }
 
 .intro {
@@ -342,6 +266,83 @@ section {
     font-size: 8px;
   }
 
+  .nav-logo {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .logo {
+    height: 50px;
+    top: 5px;
+    left: 10px;
+  }
+
+  .nav-collapse ul {
+    margin-right: 0px;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s;
+  }
+
+  .nav-collapse ul li {
+      width: 100%;
+  }
+
+  .nav-collapse ul li a {
+    font-size: 3rem;
+    padding: 1rem;
+  }
+
+  .nav-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 60px;
+  }
+
+  .nav-icon .hamburger {
+    width: 34px;
+    margin: 19px auto 0;
+  }
+
+  .nav-icon span {
+    display: block;
+    width: 34px;
+    height: 4px;
+    margin-bottom: 4px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
+  }
+
+  #navToggle:checked ~ .nav-mask {
+    display: block;
+  }
+
+  #navToggle:checked ~ ul {
+    margin-bottom: 2rem;
+    max-height: 260px;
+  }
+
+  #navToggle:checked ~ .nav-icon span:first-child
+  {
+    transform: translate(0, 8px) rotate(-45deg) ;
+  }
+
+  #navToggle:checked ~ .nav-icon span:nth-child(2)
+  {
+    opacity: 0;
+  }
+
+  #navToggle:checked ~ .nav-icon span:last-child
+  {
+    transform: translate(0, -8px) rotate(45deg) ;
+  }
+
   .header-bg {
     border-image: url(../images/Header_Small.png);
     border-image-slice: 15 130 19 142 fill;
@@ -383,6 +384,10 @@ section {
     margin-top: 65px;
   }
 
+  .img-main {
+    padding: 2rem;
+  }
+
   .copyright {
     font-size: 1.5rem;
     font-weight: 300;
@@ -400,6 +405,10 @@ section {
   .person {
     width: 141px;
     margin: 0.5rem 1.0rem;
+  }
+
+  #navToggle:checked ~ ul {
+    max-height: 190px;
   }
   
 }
