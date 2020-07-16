@@ -192,12 +192,71 @@ section {
 }
 
 .games {
-  margin: 2.0rem 0.0rem 5.0rem;
+  margin: 2.0rem 5.0rem 5.0rem;
+}
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.game-ss-holder {
+  flex: 0 0 auto;
+}
+
+.game-ss {
+  -webkit-box-shadow: -6px 6px 0px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: -6px 6px 0px 0px rgba(0,0,0,0.18);
+  box-shadow: -6px 6px 0px 0px rgba(0,0,0,0.18);
+}
+
+.game-ss:not(:last-child) {
+  margin-right: 25px;
+}
+
+.game-info {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 25px;
+  flex: 1 1 505px;
+  max-width: 600px;
+  min-width: 505px;
+}
+
+.game-row-1 {
+  display: flex;
+  align-items: start;
+}
+
+.game-row-2 {
+  margin-top: 25px;
 }
 
 .game-icon {
   display: inline-block;
   margin: 0.5rem 1.0rem;
+}
+
+.game-name {
+  text-align: left;
+  font-size: 4.8rem;
+  font-weight: 400;
+}
+
+.game-description {
+  text-align: left;
+  font-size: 2.8rem;
+  max-width: 500px;
+}
+
+.store-link {
+  display: inline-block;
+}
+
+.store-link:not(:last-child) {  
+  margin-right: 25px;
 }
 
 .who-we-are {
@@ -409,6 +468,19 @@ section {
 
   #navToggle:checked ~ ul {
     max-height: 190px;
+  }
+
+  .game-ss:not(:last-child) {
+    margin-right: 15px;
+  }
+
+  .game-info {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 25px;
+    flex: 1 1 320px;
+    max-width: 600px;
+    min-width: 320px;
   }
   
 }
