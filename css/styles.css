@@ -251,6 +251,11 @@ section {
   max-width: 500px;
 }
 
+.icon-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .store-link {
   display: inline-block;
 }
