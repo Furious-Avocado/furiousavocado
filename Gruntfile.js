@@ -43,7 +43,7 @@ module.exports = function (grunt) {
             },
             js: {
                 files: ['<%= config.jsSourceDir %>**/*.js'],
-                tasks: ['copy:js', 'babel', 'uglify'],
+                tasks: ['babel', 'uglify'],
                 options: {
                     spawn: false
                 }
@@ -54,7 +54,7 @@ module.exports = function (grunt) {
         browserSync: {
             dev: {
                 bsFiles: {
-                    src: ['*.html', '*.php','*/**.php', '*/**.css','*/**.js']
+                    src: ['*.html','*/**.html', '*.php','*/**.php', '*/**.css','*/**.js']
                 },
                 options: {
                     proxy: '<%= config.proxy %>',
@@ -65,7 +65,7 @@ module.exports = function (grunt) {
             }
         },
 
-        /** copy images, js and external css files from resources dir to destination dir */
+        /** copy images and external css files from resources dir to destination dir */
         copy: {
             images: {
                 expand: true,
@@ -73,13 +73,6 @@ module.exports = function (grunt) {
                 src: '**',
                 dest: '<%= config.imgDir %>',
                 filter: 'isFile',
-            },
-            js: {
-                expand: true,
-                cwd: '<%= config.jsSourceDir %>',
-                src: '*',
-                dest: '<%= config.jsDir %>',
-                filter: 'isFile'
             },
             css: {
                 expand: true,
@@ -198,7 +191,7 @@ module.exports = function (grunt) {
         purgecss: {
             target: {
                 options: {
-                    content: ['**/*.php', '**/*.js'],
+                    content: ['**/*.html','**/*.php', '**/*.js'],
                     whitelist: ['aos'],
                     whitelistPatterns: [/^aos/]
                 },
@@ -227,11 +220,13 @@ module.exports = function (grunt) {
 
         // minify final JS files
         uglify: {
-            target: {
-                files: {
-                    '<%= config.jsDir %><%= config.jsMainFileName %>.min.js': ['<%= config.jsDir %><%= config.jsMainFileName %>.js']
-                }
-            }
+            files: {
+                src: '<%= config.jsSourceDir %>*.js',  // source files mask
+                dest: '<%= config.jsDir %>',    // destination folder
+                expand: true,    // allow dynamic building
+                flatten: true,   // remove all unnecessary nesting
+                ext: '.min.js'   // replace .js to .min.js
+            },
         }
 
         /** JS TASKS END */
@@ -256,12 +251,12 @@ module.exports = function (grunt) {
      * */
 
     //first build
-    grunt.registerTask('build', ['css-dev', 'copy:js', 'babel', 'uglify', 'imgmin', 'copy:css']);
+    grunt.registerTask('build', ['css-dev', 'babel', 'uglify', 'imgmin', 'copy:css']);
 
     //watch + browser sync
     grunt.registerTask('default', ['browserSync', 'watch']);
 
     //final build
-    grunt.registerTask('dist', ['clean:temp', 'imgmin', 'cssbeauty', 'copy:js', 'babel', 'uglify', 'copy:css']);
+    grunt.registerTask('dist', ['clean:temp', 'imgmin', 'cssbeauty', 'babel', 'uglify', 'copy:css']);
 
 };
