@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../webfonts/inter/Inter-Regular.eot');
+    src: url('../webfonts/inter/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/inter/Inter-Regular.woff2') format('woff2'),
+        url('../webfonts/inter/Inter-Regular.woff') format('woff'),
+        url('../webfonts/inter/Inter-Regular.ttf') format('truetype'),
+        url('../webfonts/inter/Inter-Regular.svg#Inter-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../webfonts/inter/Inter-ExtraBold.eot');
+    src: url('../webfonts/inter/Inter-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/inter/Inter-ExtraBold.woff2') format('woff2'),
+        url('../webfonts/inter/Inter-ExtraBold.woff') format('woff'),
+        url('../webfonts/inter/Inter-ExtraBold.ttf') format('truetype'),
+        url('../webfonts/inter/Inter-ExtraBold.svg#Inter-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../webfonts/inter/Inter-Bold.eot');
+    src: url('../webfonts/inter/Inter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/inter/Inter-Bold.woff2') format('woff2'),
+        url('../webfonts/inter/Inter-Bold.woff') format('woff'),
+        url('../webfonts/inter/Inter-Bold.ttf') format('truetype'),
+        url('../webfonts/inter/Inter-Bold.svg#Inter-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../webfonts/inter/Inter-SemiBold.eot');
+    src: url('../webfonts/inter/Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../webfonts/inter/Inter-SemiBold.woff2') format('woff2'),
+        url('../webfontsv/Inter-SemiBold.woff') format('woff'),
+        url('../webfonts/inter/Inter-SemiBold.ttf') format('truetype'),
+        url('../webfonts/inter/Inter-SemiBold.svg#Inter-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

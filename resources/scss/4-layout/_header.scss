@@ -1,0 +1,215 @@
+/*----------------------------------------------------------------------------*/
+/*#HEADER STYLE*/
+/*----------------------------------------------------------------------------*/
+.site-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 9999;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: rgba(250, 253, 255, 0.95);
+	transition: all .3s ease-in-out;
+
+	&.active {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	&__logo {
+		position: relative;
+		z-index: 9999;
+	}
+
+	.primary-menu { 
+		gap: 50px;		
+
+		.menu-item { 
+			margin-bottom: 0; 
+
+			@media (max-width: $screen-sm) {
+				display: flex;
+    			width: 100%;
+    			justify-content: center;
+    			text-align: center;
+			}
+
+		 	a {
+		 		position: relative;
+				text-transform: uppercase;
+				color: $primary;
+				font-weight: 600;
+				font-size: 14px;
+				padding: 7px 0;
+
+				@media (max-width: $screen-sm) {
+					font-size: 26px;
+				}
+
+				&::before {
+					content: "";
+					position: absolute;
+					left: 0;
+					bottom: 0;
+					width: 0;
+					height: 2px;
+					background-color: #f8a629;
+					transition: .3s ease-in-out;
+				}
+
+				&:hover::before { width: 100%; }
+			}
+		}
+
+		.menu-btn a {
+			color: #fff;
+			padding: 12px 38px;
+			background-color: #F8A629;
+			border-radius: 50px;
+			font-weight: 600;
+			box-shadow: 0px 1px 24px #DDEBF9;
+
+			& span { 
+				display: inline-block;
+			    transition: all .3s ease-in-out;
+				backface-visibility: hidden;
+			}
+
+			&::before {
+				content: none;
+			}			
+
+			&::after {
+			    content: '\f061';
+			    font-family: "Font Awesome 5 Pro";
+			    font-size: 19px;   
+			    font-weight: 400;
+			    width: 0;
+			    opacity: 0;
+			    -webkit-transition: all .3s ease-in-out;
+			    -o-transition: all .3s ease-in-out;
+			    transition: all .3s ease-in-out;
+			    transform: translateX(15px);
+				backface-visibility: hidden;
+			    display: inline-block;
+			    position: relative;
+			    top: 2px;
+			    color: #fff;
+			    z-index: 999;
+
+			    @media (max-width: $screen-sm) { top: -2px; }
+			}
+
+			&:hover::after {
+    			opacity: 1;
+    			transform: translateX(0);
+			}
+
+			&:hover span {
+    			transform: translateX(-15px);
+    		}
+
+    		@media (max-width: $screen-sm) {
+    			padding: 19px 38px;
+    			width: 100%;
+    			max-width: 280px;
+    		}
+		}
+
+		@media (max-width: $screen-md) { gap: 30px; }
+
+		@media (max-width: $screen-sm) {
+			position: fixed;
+		    top: 100px;
+		    z-index: 999;
+		    width: 100%;
+		    left: -100%;
+		    padding: 50px 20px 100px;
+		    overflow: auto;
+		    height: calc(100vh - 100px);
+		    justify-content: center !important;	
+		    flex-direction: column;
+		    transition: .3s ease-in-out;
+
+		    &::before {
+				content: "";
+				position: fixed;
+				top: 0;
+				width: 100%;
+				bottom: 0;
+				left: -100%;
+				background-color: #fff;
+				background-image: url('../images/mobile-menu-bg.png');
+			    background-position: 100% calc(100% + 150px);
+	    		background-size: contain;
+	    		background-repeat: no-repeat;
+	    		transition: .3s ease-in-out;
+			}
+
+			&.triggered { left: 0; }
+
+			&.triggered::before { left: 0; }
+		}
+
+		@media (max-height: $screen-xs) {
+			justify-content: flex-start !important;
+		}
+
+	}
+	
+}
+
+
+.menu-toggle {
+	position: relative;
+	min-height: 30px;
+	width: 30px;
+	cursor: pointer;
+	display: none;
+
+	@media (max-width: $screen-sm ) { display: block; }
+
+	span {
+		position: absolute;
+        background-color: #000;
+        width: 26px;
+        height: 2px;
+        right: 5px;
+        z-index: 9999;
+        -webkit-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+		backface-visibility: hidden;
+
+		&:first-child { top: 5px; }
+
+		&:nth-child(2) { 
+        	top: 13px; 
+        	width: 26px;
+    	}
+
+		&:nth-child(3) { 
+        	top: 21px;
+        	width: 26px;
+    	}
+	}
+
+	&.activated span:nth-child(2) {
+    	width: 29px;
+    	top: 5px;
+    	transform: translateY(9px) rotate(45deg);
+	}
+
+	&.activated span:first-child {
+    	width: 29px;
+    	top: 23px;
+    	transform: translateY(-9px) rotate(-45deg);
+	}
+
+	&.activated span:nth-child(3) { background: transparent; }
+}
+
+
+
+  

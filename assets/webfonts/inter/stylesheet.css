@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-SemiBold.eot');
+    src: url('Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Inter-SemiBold.woff2') format('woff2'),
+        url('Inter-SemiBold.woff') format('woff'),
+        url('Inter-SemiBold.ttf') format('truetype'),
+        url('Inter-SemiBold.svg#Inter-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
