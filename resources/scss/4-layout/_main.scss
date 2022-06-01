@@ -49,7 +49,7 @@ body {
 	min-height: 870px;
 	padding-top: 120px;
 	background-color: #F6F8F9;
-	background-image: url('../images/bg-hero-gradient.png');
+	background-image: url('../images/hero-gradient.png');
 
 	@media (max-width: $screen-xxxl) { 
 		height: 100vh;
@@ -991,7 +991,7 @@ body {
 	left: 0;
 	right: 0;
 	height: 100vh;
-	background-image: url('../images/bg-hero-gradient.png');
+	background-image: url('../images/hero-gradient.png');
 	background-size: cover;
 	transition: .7s ease-in-out;
 	z-index: 9999;

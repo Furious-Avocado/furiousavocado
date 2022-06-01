@@ -2489,7 +2489,7 @@ body.menu-triggered {
 	min-height: 870px;
 	padding-top: 120px;
 	background-color: #F6F8F9;
-	background-image: url("../images/bg-hero-gradient.png");
+	background-image: url("../images/hero-gradient.png");
 }
 
 .hero-section__col-text {
@@ -3247,7 +3247,7 @@ body.menu-triggered {
 	left: 0;
 	right: 0;
 	height: 100vh;
-	background-image: url("../images/bg-hero-gradient.png");
+	background-image: url("../images/hero-gradient.png");
 	background-size: cover;
 	transition: .7s ease-in-out;
 	z-index: 9999;
