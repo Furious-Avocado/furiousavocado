@@ -40,16 +40,16 @@ body {
 /*----------------------------------------------------------------------------*/
 /* #HOMEPAGE HERO SECTION
 /*----------------------------------------------------------------------------*/
+
+.fallback .hero-section { background-image: url('../images/hero-gradient.png'); }
+.webp .hero-section     { background-image: url('../images/hero-gradient.webp'); }
+.avif .hero-section     { background-image: url('../images/hero-gradient.avif'); }
+
 .hero-section {
-	// position: fixed;
-	// top: 0;
-	// left: 0;
-	// right: 0;
 	overflow: hidden;
 	min-height: 870px;
 	padding-top: 120px;
 	background-color: #F6F8F9;
-	background-image: url('../images/hero-gradient.png');
 
 	@media (max-width: $screen-xxxl) { 
 		height: 100vh;
@@ -304,7 +304,7 @@ body {
 		bottom: -80px;
 		width: 100%;
 
-		@include screen(xxs) { bottom: 0; }
+		@include screen(xxs) { bottom: -40px; }
 	}
 }
 
@@ -320,7 +320,7 @@ body {
 		bottom: -80px;
 		width: 100%;
 
-		@include screen(xxs) { bottom: 0; }
+		@include screen(xxs) { bottom: -40px; }
 	}
 }
 
@@ -686,8 +686,12 @@ body {
 	padding-top: 80px;
 	padding-bottom: 60px;
 	background-color: #F6F8F9;
-	background-image: url('../images/bg-hero-gradient-sm.jpg');
 }
+
+.fallback .hero-section--sm { background-image: url('../images/bg-hero-gradient-sm.jpg'); }
+.webp .hero-section--sm     { background-image: url('../images/bg-hero-gradient-sm.webp'); }
+.avif .hero-section--sm     { background-image: url('../images/bg-hero-gradient-sm.avif'); }
+
 /*----------------------------------------------------------------------------*/
 /* #SINGLE PAGE CAREER BODY SECTION
 /*----------------------------------------------------------------------------*/
@@ -962,8 +966,12 @@ body {
 /*----------------------------------------------------------------------------*/
 /* #ERROR 404 PAGE
 /*----------------------------------------------------------------------------*/
+
+.fallback .error-section {  background-image: url('../images/error-bg.jpg'); }
+.webp .error-section     {  background-image: url('../images/error-bg.webp'); }
+.avif .error-section     {  background-image: url('../images/error-bg.avif'); }
+
 .error-section {
-    background-image: url('../images/error-bg.jpg');
     min-height: calc(100vh - 124px);
     padding-top: 100px;
     padding-bottom: 50px;
@@ -985,13 +993,17 @@ body {
 /*----------------------------------------------------------------------------*/
 /* #PRELOADER
 /*----------------------------------------------------------------------------*/
+
+.fallback .preloader-box { background-image: url('../images/hero-gradient.png'); }
+.webp .preloader-box     { background-image: url('../images/hero-gradient.webp'); }
+.avif .preloader-box     { background-image: url('../images/hero-gradient.avif'); }
+
 .preloader-box {
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	height: 100vh;
-	background-image: url('../images/hero-gradient.png');
 	background-size: cover;
 	transition: .7s ease-in-out;
 	z-index: 9999;

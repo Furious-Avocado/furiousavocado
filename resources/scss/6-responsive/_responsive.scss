@@ -75,6 +75,8 @@
 
 @include screen(xs) {
 
+	.mb--xs-10 { margin-bottom: 10px; }
+
 	.txt--xxxl { font-size: 140px; }
 
 	.txt--xxl {	font-size: 53px; }

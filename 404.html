@@ -73,25 +73,34 @@
                     <a href="/" class="btn btn--orange">Back to Homepage</a>
                 </div>
                 <div class="col-lg-5 txt--right">
-                    <img src="/assets/images/favocado-thinking.png" alt="FAvocado Thinking" width="432" height="630">
+                    <picture>
+                        <source srcset="/assets/images/favocado-thinking.avif" type="image/avif">
+                        <source srcset="/assets/images/favocado-thinking.webp" type="image/webp">
+                        <img src="/assets/images/favocado-thinking.png" alt="FAvocado Thinking" width="432" height="630">
+                    </picture>
                 </div>
             </div>
         </div>
     </section>
     <!--FOOTER-->
-    <footer class="site-footer">
-        <div class="container d-flex align-items-center justify-content-between flex-column flex-md-row">
-            <div class="site-footer__logo d-flex align-items-start">
-                <img src="/assets/images/footer-logo.svg" alt="White Logo" width="219" height="74">
+    <footer>
+        <div class="site-footer">
+            <div class="container d-flex align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="site-footer__logo d-flex align-items-start">
+                    <img src="/assets/images/footer-logo.svg" alt="White Logo" width="219" height="74">
+                </div>
+                <div class="site-footer__social-media">
+                    <ul class="d-flex align-items-center">
+                        <li><a href="https://www.facebook.com/furiousavocado/" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/furious-avocado/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="site-footer__copyright">
-                <p class="mb--0">Copyright ©  2022 Furious Avocado</p>
-            </div>
-            <div class="site-footer__social-media">
-                <ul class="d-flex align-items-center">
-                    <li><a href="https://www.facebook.com/furiousavocado/" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="https://www.linkedin.com/company/furious-avocado/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a></li>                      
-                </ul>
+        </div>
+        <div class="footer__copyright">
+            <div class="container d-flex align-items-center justify-content-between flex-column flex-sm-row">
+                <p class="mb--0 mb--xs-10">Copyright ©  2022 Furious Avocado</p>
+                <p class="mb--0">Crafted by <a href="https://codeart.mk/" target="_blank" rel="noopener">codeart.</a></p>
             </div>
         </div>
     </footer>

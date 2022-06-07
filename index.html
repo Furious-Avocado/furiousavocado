@@ -13,17 +13,22 @@
     <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <!--IMAGES-->
-    <link rel="preload" as="image" crossorigin="anonymous" href="/assets/images/hero-gradient.png"/>
+
     <!--FONTS-->
     <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/assets/webfonts/inter/Inter-ExtraBold.woff2"/>
     <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/assets/webfonts/inter/Inter-SemiBold.woff2"/>
     <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/assets/webfonts/inter/Inter-Bold.woff2"/>
     <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/assets/webfonts/inter/Inter-Regular.woff2"/>
+
+    <!--SCRIPTS-->
+    <script src="/assets/js/smooth-scroll.min.js"></script>
+    <script src="/assets/js/image-support-detection.min.js"></script>
+
     <!--STYLE-->
     <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/assets/css/aos.css" />
-    <link rel="stylesheet" href="/assets/css/main.min.css?v=1.0.8">
+    <link rel="stylesheet" href="/assets/css/main.min.css?v=1.1.0">
+
     <!--META SHARE-->
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
@@ -39,9 +44,6 @@
     <meta name="twitter:description" content="Indie game studio kickstarted by a group of friends and professionals who share the passion for creating amazing games, playing games and smashing avocados." />
     <meta name="twitter:title" content="Furious Avocado - Smashing avocados and making hit games!" />
     <meta name="twitter:image" content="https://furiousavocado.com/assets/images/og-share.jpg" />
-
-    <!--SCRIPTS-->
-    <script src="/assets/js/smooth-scroll.min.js"></script>
 
 </head>
 <body class="homepage preloader-active">
@@ -84,16 +86,32 @@
                     </div>
                     <div class="hero-section__col-img p--relative" id="js-hero-decorations">
                         <div class="element-animation element-one items__layer layer" data-depth="-0.4">
-                            <img src="/assets/images/element-one.png" alt="" width="798" height="380">
+                            <picture>
+                                <source srcset="/assets/images/element-one.avif" type="image/avif">
+                                <source srcset="/assets/images/element-one.webp" type="image/webp">
+                                <img src="/assets/images/element-one.png" alt="" width="798" height="380">
+                            </picture>
                         </div>
                         <div class="element-animation element-two items__layer layer" data-depth="0.7">
-                            <img src="/assets/images/element-two.png" alt="" width="559" height="371">
+                            <picture>
+                                <source srcset="/assets/images/element-two.avif" type="image/avif">
+                                <source srcset="/assets/images/element-two.webp" type="image/webp">
+                                <img src="/assets/images/element-two.png" alt="" width="559" height="371">
+                            </picture>
                         </div>
                         <div class="element-animation element-three items__layer layer" data-depth="0.2">
-                            <img src="/assets/images/element-three.png" alt="" width="786" height="692">
+                            <picture>
+                                <source srcset="/assets/images/element-three.avif" type="image/avif">
+                                <source srcset="/assets/images/element-three.webp" type="image/webp">
+                                <img src="/assets/images/element-three.png" alt="" width="786" height="692">
+                            </picture>
                         </div>
                         <div class="element-animation element-four items__layer layer" data-depth="-0.2">
-                            <img src="/assets/images/element-four.png" alt="" width="884" height="751">
+                            <picture>
+                                <source srcset="/assets/images/element-four.avif" type="image/avif">
+                                <source srcset="/assets/images/element-four.webp" type="image/webp">
+                                <img src="/assets/images/element-four.png" alt="" width="884" height="751">
+                            </picture>
                         </div>
                     </div>
                 </div>
@@ -112,20 +130,36 @@
                     <div class="col-12 d-flex flex-wrap mb--60 mb--xs-30">
                         <div class="item-column game-tie-dye bg--properties column-left-border p--relative">
                             <div class="item-bg-image items__layer layer" data-depth="0.4">
-                                <img src="/assets/images/summer-bg.jpg" alt="Item Bg Summer" width="1070" height="1070" class="item-bg-paralax">
+                                <picture>
+                                    <source srcset="/assets/images/summer-bg.avif" type="image/avif">
+                                    <source srcset="/assets/images/summer-bg.webp" type="image/webp">
+                                    <img src="/assets/images/summer-bg.jpg" alt="Item Bg Summer" width="1070" height="1070" class="item-bg-paralax">
+                                </picture>
                             </div>
                             <div class="item-images d-flex align-items-end">
                                 <div class="item-img__girl items__layer layer" data-depth="0.4">
                                     <div class="girl-paralax">
-                                        <img src="/assets/images/female.png" alt="Game Girl." width="293" height="530">
+                                        <picture>
+                                            <source srcset="/assets/images/female.avif" type="image/avif">
+                                            <source srcset="/assets/images/female.webp" type="image/webp">
+                                            <img src="/assets/images/female.png" alt="Game Girl." width="293" height="530">
+                                        </picture>
                                     </div>
                                 </div>
                                 <div class="item-img__boy items__layer layer" data-depth="0.8">
-                                    <img src="/assets/images/male.png" alt="Game Boy." width="277" height="530" class="boy-paralax">
+                                    <picture>
+                                        <source srcset="/assets/images/male.avif" type="image/avif">
+                                        <source srcset="/assets/images/male.webp" type="image/webp">
+                                        <img src="/assets/images/male.png" alt="Game Boy." width="277" height="530" class="boy-paralax">
+                                    </picture>
                                 </div>
                                 <div class="item-img__decoration items__layer layer" data-depth="-0.3">
                                     <div class="decorations-paralax">
-                                        <img src="/assets/images/confetti.png" alt="Decorations." width="420" height="465">
+                                        <picture>
+                                            <source srcset="/assets/images/confetti.avif" type="image/avif">
+                                            <source srcset="/assets/images/confetti.webp" type="image/webp">
+                                            <img src="/assets/images/confetti.png" alt="Decorations." width="420" height="465">
+                                        </picture>
                                     </div>
                                 </div>
                             </div>
@@ -174,23 +208,39 @@
                     <div class="col-12 d-flex flex-wrap column-reverse">
                         <div class="item-column game-candle-craft bg--properties column-right-border p--relative order-lg-1">
                             <div class="item-bg-image items__layer layer" data-depth="0.4">
-                                <img src="/assets/images/candle-desc.jpg" alt="Item Bg Desc" width="1070" height="1070" class="item-bg-paralax">
+                                <picture>
+                                    <source srcset="/assets/images/candle-desc.avif" type="image/avif">
+                                    <source srcset="/assets/images/candle-desc.webp" type="image/webp">
+                                    <img src="/assets/images/candle-desc.jpg" alt="Item Bg Desc" width="1070" height="1070" class="item-bg-paralax">
+                                </picture>
                             </div>
                             <div class="item-images">
                                 <div class="items__layer layer" data-depth="0.4">
                                     <div class="item-img__candle-one">
-                                        <img src="/assets/images/candle-one.png" alt="Candle One." width="287" height="496">
+                                        <picture>
+                                            <source srcset="/assets/images/candle-one.avif" type="image/avif">
+                                            <source srcset="/assets/images/candle-one.webp" type="image/webp">
+                                            <img src="/assets/images/candle-one.png" alt="Candle One." width="287" height="496">
+                                        </picture>
                                     </div>
                                 </div>
                                 <div class="items__layer layer" data-depth="0.4">
                                     <div class="item-img__candle-two">
-                                        <img src="/assets/images/candle-two.png" alt="Candle Two." width="376" height="448">
+                                        <picture>
+                                            <source srcset="/assets/images/candle-two.avif" type="image/avif">
+                                            <source srcset="/assets/images/candle-two.webp" type="image/webp">
+                                            <img src="/assets/images/candle-two.png" alt="Candle Two." width="376" height="448">
+                                        </picture>
                                     </div>
                                 </div>
 
                                 <div class="items__layer layer" data-depth="0.4">
                                     <div class="item-img__decoration-dots">
-                                        <img src="/assets/images/candle-confetti.png" alt="Decorations." width="588" height="346">
+                                        <picture>
+                                            <source srcset="/assets/images/candle-confetti.avif" type="image/avif">
+                                            <source srcset="/assets/images/candle-confetti.webp" type="image/webp">
+                                            <img src="/assets/images/candle-confetti.png" alt="Decorations." width="588" height="346">
+                                        </picture>
                                     </div>
                                 </div>
                             </div>
@@ -289,13 +339,25 @@
                         <div class="swiper carousel-images js-carousel-images">
                             <div class="swiper-wrapper mb--lg-30">
                                 <div class="swiper-slide">
-                                    <img src="/assets/images/team-collage-1.png" alt="Our Team One" width="1045" height="780">
+                                    <picture>
+                                        <source srcset="/assets/images/team-collage-1.avif" type="image/avif">
+                                        <source srcset="/assets/images/team-collage-1.webp" type="image/webp">
+                                        <img src="/assets/images/team-collage-1.png" alt="Our Team One" width="1045" height="780">
+                                    </picture>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="/assets/images/team-collage-2.png" alt="Our Team Two" width="1045" height="780">
+                                    <picture>
+                                        <source srcset="/assets/images/team-collage-2.avif" type="image/avif">
+                                        <source srcset="/assets/images/team-collage-2.webp" type="image/webp">
+                                        <img src="/assets/images/team-collage-2.png" alt="Our Team Two" width="1045" height="780">
+                                    </picture>
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="/assets/images/team-collage-3.png" alt="Our Team Three" width="1045" height="780">
+                                    <picture>
+                                        <source srcset="/assets/images/team-collage-3.avif" type="image/avif">
+                                        <source srcset="/assets/images/team-collage-3.webp" type="image/webp">
+                                        <img src="/assets/images/team-collage-3.png" alt="Our Team Three" width="1045" height="780">
+                                    </picture>
                                 </div>
                             </div>
 
@@ -435,7 +497,12 @@
                                             </p>
                                         </div>
                                         <div class="testimonial-box__footer">
-                                            <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            <picture>
+                                                <source srcset="/assets/images/tie-dye.avif" type="image/avif">
+                                                <source srcset="/assets/images/tie-dye.webp" type="image/webp">
+                                                <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            </picture>
+
                                             <h6><strong>Tie Dye</strong></h6>
                                         </div>
                                     </div>
@@ -457,7 +524,11 @@
                                             <p>I love the carving process and colors and all the designs you can make with the wax. It's just all around relaxing. 10/10</p>
                                         </div>
                                         <div class="testimonial-box__footer">
-                                            <img src="/assets/images/candle-craft.png" alt="Candle Craft" width="44" height="45">
+                                            <picture>
+                                                <source srcset="/assets/images/candle-craft.avif" type="image/avif">
+                                                <source srcset="/assets/images/candle-craft.webp" type="image/webp">
+                                                <img src="/assets/images/candle-craft.png" alt="Candle Craft" width="44" height="45">
+                                            </picture>
                                             <h6><strong>Candle Craft</strong></h6>
                                         </div>
                                     </div>
@@ -479,7 +550,11 @@
                                             <p>I like it!! lol Pretty freakin cool. Gives me lots of different ideas I can use for my own designs IRL. All the tye dye practice without any of the mess!!</p>
                                         </div>
                                         <div class="testimonial-box__footer">
-                                            <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            <picture>
+                                                <source srcset="/assets/images/tie-dye.avif" type="image/avif">
+                                                <source srcset="/assets/images/tie-dye.webp" type="image/webp">
+                                                <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            </picture>
                                             <h6><strong>Tie Dye</strong></h6>
                                         </div>
                                     </div>
@@ -501,7 +576,11 @@
                                             <p>I just downloaded the app like last night and I already love it. Candle making is a hobby of mine that i absolutely adore so now to see that they're is a game for it really warms my heart</p>
                                         </div>
                                         <div class="testimonial-box__footer">
-                                            <img src="/assets/images/candle-craft.png" alt="Candle Craft" width="44" height="45">
+                                            <picture>
+                                                <source srcset="/assets/images/candle-craft.avif" type="image/avif">
+                                                <source srcset="/assets/images/candle-craft.webp" type="image/webp">
+                                                <img src="/assets/images/candle-craft.png" alt="Candle Craft" width="44" height="45">
+                                            </picture>
                                             <h6><strong>Candle Craft</strong></h6>
                                         </div>
                                     </div>
@@ -523,7 +602,11 @@
                                             <p>I love the game, it is so fun to play. It is very realistic. You can tie dye, add stickers, upgrade your shop, get money, and so much more. I really enjoy this and would recommend it to you all! It is a great game for free.</p>
                                         </div>
                                         <div class="testimonial-box__footer">
-                                            <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            <picture>
+                                                <source srcset="/assets/images/tie-dye.avif" type="image/avif">
+                                                <source srcset="/assets/images/tie-dye.webp" type="image/webp">
+                                                <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            </picture>
                                             <h6><strong>Tie Dye</strong></h6>
                                         </div>
                                     </div>
@@ -545,7 +628,11 @@
                                             <p>SOO FUN!!! I absolutely love this game! Its to incredibly fun! It’s perfect for my tie dye addict sister!! It’s probably my favorite game EVER!! The moment I saw it I screamed with joy!! It’s sooo cute! I love the decorates and shop stuff! I could just go on and on! ITS THE BEST GAME EVER!!! I would definitely recommend this game to all ages! Especially for people who LOVE tie dye!</p>
                                         </div>
                                         <div class="testimonial-box__footer">
-                                            <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            <picture>
+                                                <source srcset="/assets/images/tie-dye.avif" type="image/avif">
+                                                <source srcset="/assets/images/tie-dye.webp" type="image/webp">
+                                                <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            </picture>
                                             <h6><strong>Tie Dye</strong></h6>
                                         </div>
                                     </div>
@@ -567,7 +654,11 @@
                                             <p>This is my all time favorite game I play it every day</p>
                                         </div>
                                         <div class="testimonial-box__footer">
-                                            <img src="/assets/images/candle-craft.png" alt="Candle Craft" width="44" height="45">
+                                            <picture>
+                                                <source srcset="/assets/images/candle-craft.avif" type="image/avif">
+                                                <source srcset="/assets/images/candle-craft.webp" type="image/webp">
+                                                <img src="/assets/images/candle-craft.png" alt="Candle Craft" width="44" height="45">
+                                            </picture>
                                             <h6><strong>Candle Craft</strong></h6>
                                         </div>
                                     </div>
@@ -589,7 +680,11 @@
                                             <p>This game is very entertaining, and doesn't try to get you to buy things just to play the game. It's easy to level up, earn coins to decorate your shop, & sometimes you get free creative opportunities with no rules. Definitely recommend.</p>
                                         </div>
                                         <div class="testimonial-box__footer">
-                                            <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            <picture>
+                                                <source srcset="/assets/images/tie-dye.avif" type="image/avif">
+                                                <source srcset="/assets/images/tie-dye.webp" type="image/webp">
+                                                <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            </picture>
                                             <h6><strong>Tie Dye</strong></h6>
                                         </div>
                                     </div>
@@ -611,7 +706,11 @@
                                             <p>Five star Cuz ITS SO FUUUUUUUUUUNNNNNNNNNNNNNNNNNNNN</p>
                                         </div>
                                         <div class="testimonial-box__footer">
-                                            <img src="/assets/images/candle-craft.png" alt="Candle Craft" width="44" height="45">
+                                            <picture>
+                                                <source srcset="/assets/images/candle-craft.avif" type="image/avif">
+                                                <source srcset="/assets/images/candle-craft.webp" type="image/webp">
+                                                <img src="/assets/images/candle-craft.png" alt="Candle Craft" width="44" height="45">
+                                            </picture>
                                             <h6><strong>Candle Craft</strong></h6>
                                         </div>
                                     </div>
@@ -633,7 +732,11 @@
                                             <p>This app is great!! I love playing it. I like doing the vip customers because they give you so much money. I like decorating the way your shop looks and having so many peices of clothing to unlock. This game platform is a great way to show your creativity. I will not be deleting this app for a very long time! It keeps me busy and it also keeps my mind busy.</p>
                                         </div>
                                         <div class="testimonial-box__footer">
-                                            <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            <picture>
+                                                <source srcset="/assets/images/tie-dye.avif" type="image/avif">
+                                                <source srcset="/assets/images/tie-dye.webp" type="image/webp">
+                                                <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            </picture>
                                             <h6><strong>Tie Dye</strong></h6>
                                         </div>
                                     </div>
@@ -655,7 +758,11 @@
                                             <p>I've been really addicted to this app since I downloaded it. The controls are super easy, love the different colors to choose from. The dying itself is so fun as well, watching the colors mix and playing with designs is relaxing. Love this game!</p>
                                         </div>
                                         <div class="testimonial-box__footer">
-                                            <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            <picture>
+                                                <source srcset="/assets/images/tie-dye.avif" type="image/avif">
+                                                <source srcset="/assets/images/tie-dye.webp" type="image/webp">
+                                                <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            </picture>
                                             <h6><strong>Tie Dye</strong></h6>
                                         </div>
                                     </div>
@@ -677,7 +784,11 @@
                                             <p>Very very fun I loved how you could make custom candles</p>
                                         </div>
                                         <div class="testimonial-box__footer">
-                                            <img src="/assets/images/candle-craft.png" alt="Candle Craft" width="44" height="45">
+                                            <picture>
+                                                <source srcset="/assets/images/candle-craft.avif" type="image/avif">
+                                                <source srcset="/assets/images/candle-craft.webp" type="image/webp">
+                                                <img src="/assets/images/candle-craft.png" alt="Candle Craft" width="44" height="45">
+                                            </picture>
                                             <h6><strong>Candle Craft</strong></h6>
                                         </div>
                                     </div>
@@ -701,19 +812,24 @@
             </div>
         </section>
         <!--FOOTER-->
-        <footer class="site-footer">
-            <div class="container d-flex align-items-center justify-content-between flex-column flex-md-row">
-                <div class="site-footer__logo d-flex align-items-start">
-                    <img src="/assets/images/footer-logo.svg" alt="White Logo" width="219" height="74">
+        <footer>
+            <div class="site-footer">
+                <div class="container d-flex align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="site-footer__logo d-flex align-items-start">
+                        <img src="/assets/images/footer-logo.svg" alt="White Logo" width="219" height="74">
+                    </div>
+                    <div class="site-footer__social-media">
+                        <ul class="d-flex align-items-center">
+                            <li><a href="https://www.facebook.com/furiousavocado/" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/furious-avocado/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="site-footer__copyright">
-                    <p class="mb--0">Copyright ©  2022 Furious Avocado</p>
-                </div>
-                <div class="site-footer__social-media">
-                    <ul class="d-flex align-items-center">
-                        <li><a href="https://www.facebook.com/furiousavocado/" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="https://www.linkedin.com/company/furious-avocado/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a></li>
-                    </ul>
+            </div>
+            <div class="footer__copyright">
+                <div class="container d-flex align-items-center justify-content-between flex-column flex-sm-row">
+                    <p class="mb--0 mb--xs-10">Copyright ©  2022 Furious Avocado</p>
+                    <p class="mb--0">Crafted by <a href="https://codeart.mk/" target="_blank" rel="noopener">codeart.</a></p>
                 </div>
             </div>
         </footer>

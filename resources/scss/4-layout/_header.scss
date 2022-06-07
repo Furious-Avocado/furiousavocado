@@ -140,7 +140,6 @@
 				bottom: 0;
 				left: -100%;
 				background-color: #fff;
-				background-image: url('../images/mobile-menu-bg.png');
 			    background-position: 100% calc(100% + 150px);
 	    		background-size: contain;
 	    		background-repeat: no-repeat;
@@ -157,7 +156,12 @@
 		}
 
 	}
-	
+}
+
+@media (max-width: $screen-sm) {
+	.fallback .site-header .primary-menu::before { background-image: url('../images/mobile-menu-bg.png'); }
+	.webp .site-header .primary-menu::before     { background-image: url('../images/mobile-menu-bg.webp'); }
+	.avif .site-header .primary-menu::before     { background-image: url('../images/mobile-menu-bg.webp'); }
 }
 
 

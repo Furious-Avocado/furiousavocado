@@ -2484,12 +2484,23 @@ body.menu-triggered {
 /* #HOMEPAGE HERO SECTION
 /*----------------------------------------------------------------------------*/
 
+.fallback .hero-section {
+	background-image: url("../images/hero-gradient.png");
+}
+
+.webp .hero-section {
+	background-image: url("../images/hero-gradient.webp");
+}
+
+.avif .hero-section {
+	background-image: url("../images/hero-gradient.avif");
+}
+
 .hero-section {
 	overflow: hidden;
 	min-height: 870px;
 	padding-top: 120px;
 	background-color: #F6F8F9;
-	background-image: url("../images/hero-gradient.png");
 }
 
 .hero-section__col-text {
@@ -2971,7 +2982,18 @@ body.menu-triggered {
 	padding-top: 80px;
 	padding-bottom: 60px;
 	background-color: #F6F8F9;
+}
+
+.fallback .hero-section--sm {
 	background-image: url("../images/bg-hero-gradient-sm.jpg");
+}
+
+.webp .hero-section--sm {
+	background-image: url("../images/bg-hero-gradient-sm.webp");
+}
+
+.avif .hero-section--sm {
+	background-image: url("../images/bg-hero-gradient-sm.avif");
 }
 
 /*----------------------------------------------------------------------------*/
@@ -3225,8 +3247,19 @@ body.menu-triggered {
 /* #ERROR 404 PAGE
 /*----------------------------------------------------------------------------*/
 
-.error-section {
+.fallback .error-section {
 	background-image: url("../images/error-bg.jpg");
+}
+
+.webp .error-section {
+	background-image: url("../images/error-bg.webp");
+}
+
+.avif .error-section {
+	background-image: url("../images/error-bg.avif");
+}
+
+.error-section {
 	min-height: calc(100vh - 124px);
 	padding-top: 100px;
 	padding-bottom: 50px;
@@ -3241,13 +3274,24 @@ body.menu-triggered {
 /* #PRELOADER
 /*----------------------------------------------------------------------------*/
 
+.fallback .preloader-box {
+	background-image: url("../images/hero-gradient.png");
+}
+
+.webp .preloader-box {
+	background-image: url("../images/hero-gradient.webp");
+}
+
+.avif .preloader-box {
+	background-image: url("../images/hero-gradient.avif");
+}
+
 .preloader-box {
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	height: 100vh;
-	background-image: url("../images/hero-gradient.png");
 	background-size: cover;
 	transition: .7s ease-in-out;
 	z-index: 9999;
@@ -3310,6 +3354,22 @@ body.menu-triggered {
 .site-footer__social-media ul li a:hover {
 	background-color: #3E9491;
 	transform: translateY(-3px);
+}
+
+.footer__copyright {
+	background-color: #287471;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.footer__copyright * {
+	font-size: 12px;
+	line-height: 1;
+	color: #fff;
+}
+
+.footer__copyright a:hover {
+	text-decoration: underline;
 }
 
 /*----------------------------------------------------------------------------*/
@@ -5508,7 +5568,6 @@ ul li {
 	bottom: 0;
 	left: -100%;
 	background-color: #fff;
-	background-image: url("../images/mobile-menu-bg.png");
 	background-position: 100% calc(100% + 150px);
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -5521,6 +5580,18 @@ ul li {
 
 .site-header .primary-menu.triggered::before {
 	left: 0;
+}
+
+.fallback .site-header .primary-menu::before {
+	background-image: url("../images/mobile-menu-bg.png");
+}
+
+.webp .site-header .primary-menu::before {
+	background-image: url("../images/mobile-menu-bg.webp");
+}
+
+.avif .site-header .primary-menu::before {
+	background-image: url("../images/mobile-menu-bg.webp");
 }
 
 .menu-toggle {
@@ -5627,6 +5698,16 @@ ul li {
 	width: 100%;
 }
 
+.footer__copyright {
+	background-color: #38837f;
+	padding-top: 0;
+	padding-bottom: 30px;
+}
+
+.mb--xs-10 {
+	margin-bottom: 10px;
+}
+
 .txt--xxxl {
 	font-size: 140px;
 }
@@ -5644,11 +5725,11 @@ ul li {
 @media (max-width: 420px) {
 
 .item-img__girl img {
-	bottom: 0;
+	bottom: -40px;
 }
 
 .item-img__boy img {
-	bottom: 0;
+	bottom: -40px;
 }
 
 .item-img__candle-one {

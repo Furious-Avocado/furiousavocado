@@ -48,3 +48,23 @@
 	}
 }
 
+.footer__copyright {
+	background-color: #287471;
+	padding-top:    10px;
+	padding-bottom: 20px;
+
+	@include screen(xs) {
+		background-color: #38837f;
+		padding-top: 0;
+		padding-bottom: 30px;
+	}
+
+	* {
+		font-size: 12px;
+		line-height: 1;
+		color: #fff;
+	}
+
+	a:hover { text-decoration: underline; }
+}
+

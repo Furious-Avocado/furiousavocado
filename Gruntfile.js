@@ -70,7 +70,7 @@ module.exports = function (grunt) {
             images: {
                 expand: true,
                 cwd: '<%= config.imgSourceDir %>',
-                src: '**',
+                src: '**/*.{png,jpg,jpeg,gif,svg}',
                 dest: '<%= config.imgDir %>',
                 filter: 'isFile',
             },
@@ -90,7 +90,22 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= config.imgSourceDir %>',
-                    src: ['**/*.{png,jpg,gif,svg}'],
+                    src: ['**/*.{png,jpg,jpeg,gif,svg}'],
+                    dest: '<%= config.imgDir %>'
+                }]
+            }
+        },
+
+        // WebP conversion task
+        cwebp: {
+            dynamic: {
+                options: {
+                    q: 75 // Quality of WebP images:
+                },
+                files: [{
+                    expand: true,
+                    cwd: '<%= config.imgSourceDir %>',
+                    src: ['**/*.{png,jpg,jpeg,gif}'],
                     dest: '<%= config.imgDir %>'
                 }]
             }
@@ -240,7 +255,7 @@ module.exports = function (grunt) {
     grunt.registerTask('cssbeauty', ['sass:dist', 'cmq:dist', 'postcss:dist', 'purgecss', 'cssmin:dist']);
 
     //img minify
-    grunt.registerTask('imgmin', ['image']);
+    grunt.registerTask('imgmin', ['image', 'cwebp']);
 
 
     /**
