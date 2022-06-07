@@ -42,8 +42,8 @@ body {
 /*----------------------------------------------------------------------------*/
 
 .fallback .hero-section { background-image: url('../images/hero-gradient.png'); }
-.webp .hero-section     { background-image: url('../images/hero-gradient.webp'); }
-.avif .hero-section     { background-image: url('../images/hero-gradient.avif'); }
+.webp .hero-section     { background-image: url('../images/hero-gradient.png'); }
+.avif .hero-section     { background-image: url('../images/hero-gradient.png'); }
 
 .hero-section {
 	overflow: hidden;
@@ -995,8 +995,8 @@ body {
 /*----------------------------------------------------------------------------*/
 
 .fallback .preloader-box { background-image: url('../images/hero-gradient.png'); }
-.webp .preloader-box     { background-image: url('../images/hero-gradient.webp'); }
-.avif .preloader-box     { background-image: url('../images/hero-gradient.avif'); }
+.webp .preloader-box     { background-image: url('../images/hero-gradient.png'); }
+.avif .preloader-box     { background-image: url('../images/hero-gradient.png'); }
 
 .preloader-box {
 	position: fixed;
