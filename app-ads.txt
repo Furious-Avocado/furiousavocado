@@ -726,6 +726,12 @@ media.net,8CUP1N1F2,RESELLER
 xad.com,241,RESELLER,81cbf0a75a5e0e9a
 openx.com,540421297,RESELLER,6a698e2ec38604c6
 pubnative.net,1008061,RESELLER,d641df8625486a7b
+aniview.com,603f65a2e291680ef30af9c7,RESELLER,78b21b97965ec3f8
+appnexus.com,6849,RESELLER
+pubmatic.com,159277,RESELLER
+rubiconproject.com,15268,RESELLER
+video.unrulymedia.com,5127265468568773826,RESELLER
+yandex.com,95746987,RESELLER
 inmobi.com,6cc71dd159864641a03ce0c8792d801f,RESELLER,83e75a7ae333ca9d
 
 #Admob
@@ -769,8 +775,8 @@ contextweb.com, 562499, RESELLER, 89ff185a4c4e857c
 criteo.com, B-057601, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-057955, RESELLER, 9fac4a4a87c2a44f
 exchange.admazing.co, AM3, RESELLER
+google.com, pub-1279441142338850, RESELLER
 google.com, pub-5039742115488639, RESELLER
-google.com, pub-5074074040793204, RESELLER
 google.com, pub-7234330288476495, RESELLER
 google.com, pub-7853853494796077, RESELLER
 google.com, pub-8161458603022252, RESELLER
@@ -800,9 +806,11 @@ pokkt.com, 7606, RESELLER, c45702d9311e25fd
 pubmatic.com, 156494, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156520, RESELLER, 5d62403b186f2ace
 pubmatic.com, 157384, RESELLER, 5d62403b186f2ace
+Pubmatic.com, 157704, RESELLER, 5d62403b186f2ace
 pubmatic.com, 157800, RESELLER, 5d62403b186f2ace
 pubmatic.com, 158060, RESELLER, 5d62403b186f2ace
 pubmatic.com, 158118, RESELLER, 5d62403b186f2ace
+pubmatic.com, 158565, RESELLER, 5d62403b186f2ace
 pubmatic.com, 159501, RESELLER, 5d62403b186f2ace
 pubmatic.com, 159906, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160113, RESELLER, 5d62403b186f2ace
@@ -858,6 +866,7 @@ webeyemob.com, 70104, RESELLER
 xandr.com, 13167, RESELLER, f5ab79cb980f11d1
 xandr.com, 13297, RESELLER, f5ab79cb980f11d1
 xandr.com, 7353, RESELLER, f5ab79cb980f11d1
+Xapads.com, 117219, RESELLER
 yandex.com, 40427798, RESELLER
 yandex.com, 95746987, RESELLER
 yandex.com, 97539269, RESELLER
@@ -866,7 +875,7 @@ yeahmobi.com, 5135195, RESELLER
 #Ironsource
 ironsrc.com, 212281, DIRECT, 79929e88b2ba73bc
 ironsrc.com, 218891, DIRECT, 79929e88b2ba73bc
-admanmedia.com, 9, RESELLER
+adbility-media.com, 187, RESELLER
 advertising.com, 8693, RESELLER
 algorix.co, 54400, RESELLER, 5b394c12fea27a1d
 aol.com, 25910, RESELLER
@@ -875,18 +884,11 @@ appnexus.com, 2480, RESELLER, f5ab79cb980f11d1
 appnexus.com, 3368, RESELLER
 appnexus.com, 7445, RESELLER
 aralego.com, par-627DA26297666D280EA8323E33ABAED7, RESELLER
-contextweb.com, 562499, RESELLER, 89ff185a4c4e857c
-conversantmedia.com, 100097, RESELLER, 03113cd04947736d
 conversantmedia.com, 100234, RESELLER, 03113cd04947736d
 gamoshi.io ,267-b4808 ,RESELLER ,20e30b2ae1f670f2
-google.com, pub-7452201096415972, RESELLER, f08c47fec0942fa0
 improvedigital.com, 1114, RESELLER
-improvedigital.com, 1532, RESELLER
 indexexchange.com, 185996, RESELLER
-indexexchange.com, 192829, RESELLER, 50b1c356f2c5c8fc
 inmobi.com, 3af76ebd8ed44d04b01d827c6f3bb5b4, RESELLER, 83e75a7ae333ca9d
-loopme.com, 10287, RESELLER, 6c8d5f95897a5a3b
-ninthdecimal.com, 6364d3f0f495b6ab9dcf8d3b5c6e0b01, RESELLER, 3aff2148687b274b
 openx.com, 537153564, RESELLER, 6a698e2ec38604c6
 openx.com, 539363588, RESELLER, 6a698e2ec38604c6
 openx.com, 540311484, RESELLER, 6a698e2ec38604c6
@@ -896,7 +898,6 @@ pokkt.com, 5536, RESELLER, c45702d9311e25fd
 pubmatic.com, 156177, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156372, RESELLER, 5d62403b186f2ace
 pubmatic.com, 156425, RESELLER, 5d62403b186f2ace
-pubmatic.com, 158154, RESELLER, 5d62403b186f2ace
 pubmatic.com, 159087, RESELLER,5d62403b186f2ace
 pubmatic.com, 160318, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160456, RESELLER, 5d62403b186f2ace
@@ -905,11 +906,8 @@ pubnative.net, 1007007, RESELLER, d641df8625486a7b
 rhythmone.com, 3169196794, RESELLER, a670c89d4a324e47
 rubiconproject.com, 11726, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 15526, RESELLER, 0bfd66d529a55807
-rubiconproject.com, 16676, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 18364, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20050, RESELLER, 0bfd66d529a55807
-rubiconproject.com, 20744, RESELLER, 0bfd66d529a55807
-rubiconproject.com, 20942, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 22412, RESELLER, 0bfd66d529a55807
 smaato.com, 1100040398, RESELLER, 07bcf65f187117b4
 smartadserver.com, 3020, RESELLER
@@ -919,16 +917,11 @@ smartclip.net, 411, RESELLER
 smartclip.net, 8153, RESELLER
 smartclip.net, 9394, RESELLER
 smartstream.tv, 417, RESELLER
-spotx.tv, 139784, RESELLER, 7842df1d2fe2db34
-spotxchange.com, 139784, RESELLER, 7842df1d2fe2db34
 spotxchange.com, 307720, RESELLER, 7842df1d2fe2db34
-ssp.logan.ai, AJxF6R2a9M6CaTvK, RESELLER
 stroeer.com, 17355, RESELLER
 stroeer.com, 17379, RESELLER
 undertone.com, 3635, RESELLER
 undertone.com, 4108, RESELLER
-verve.com, 14561, RESELLER, 0c8f5958fc2d6270
-verve.com, 15503, RESELLER, 0c8f5958fc2d6270
 video.unrulymedia.com, 3169196794, RESELLER
 xad.com, 241, RESELLER, 81cbf0a75a5e0e9a
 yahoo.com, 59318, RESELLER
@@ -939,13 +932,31 @@ appnexus.com, 13074, RESELLER, f5ab79cb980f11d1
 gitberry.com, IG3S1B, RESELLER
 bidmachine.io, 161, RESELLER
 bidmachine.io, 162, RESELLER
-yahoo.com, 58935, RESELLER, e1a5b5b6e3255540
-triplelift.com, 10522, RESELLER, 6c33edb13117fd86
 smartadserver.com, 4354, RESELLER
 pubmatic.com, 162017, RESELLER, 5d62403b186f2ace
-appnexus.com, 11664, RESELLER
-conversantmedia.com, 100269, RESELLER, 03113cd04947736d
 engagebdr.com, 10537, RESELLER
+hyperad.tech, 35, RESELLER
+rubiconproject.com, 17328, RESELLER, 0bfd66d529a55807
+pubmatic.com, 160145, RESELLER, 5d62403b186f2ace
+conversantmedia.com, 100234, RESELLER, 03113cd04947736d
+rubiconproject.com, 23644, RESELLER, 0bfd66d529a55807
+lijit.com, 411121, RESELLER, fafdf38b16bf6b2b #SOVRN
+triplelift.com, 12652, RESELLER, 6c33edb13117fd86
+yahoo.com, 59262, RESELLER
+indexexchange.com, 197137, RESELLER, 50b1c356f2c5c8fc
+google.com, pub-2843405949989126, RESELLER, f08c47fec0942fa0
+video.unrulymedia.com, 123476257, RESELLER
+yahoo.com, 58935, RESELLER, e1a5b5b6e3255540
+triplelift.com, 10522, RESELLER, 6c33edb13117fd86
+appnexus.com, 11664, RESELLER
+rubiconproject.com,17608,RESELLER,0bfd66d529a55807
+loopme.com, 10287, RESELLER
+rubiconproject.com, 20744, RESELLER, 0bfd66d529a55807
+pubmatic.com, 158154, RESELLER, 5d62403b186f2ace
+xandr.com, 13799, RESELLER
+contextweb.com, 562499, RESELLER, 89ff185a4c4e857c
+freewheel.tv, 1137745, RESELLER
+freewheel.tv, 1138513, RESELLER
 
 
 #Applovin
@@ -1025,9 +1036,6 @@ yandex.com, 97539269, RESELLER
 
 #InMobi
 inmobi.com, 0beed2bbc4d546b482bbae9d317f7c48, DIRECT, 83e75a7ae333ca9d
-inmobi.com, 129f6cf736cd4803a47013466aa0a512, RESELLER, 83e75a7ae333ca9d
-inmobi.com, 2a029aadc7394ca7b4267be784a2dbd2, RESELLER, 83e75a7ae333ca9d
-inmobi.com, 2e0484e00bf84f35b133019004ef76a4, RESELLER, 83e75a7ae333ca9d
 inmobi.com, 3af76ebd8ed44d04b01d827c6f3bb5b4, RESELLER, 83e75a7ae333ca9d
 inmobi.com, 6665857c95674e03b5cfa49d174d9601, RESELLER, 83e75a7ae333ca9d
 inmobi.com, 7c9e112a810a4b639bb6af3fa397233e, RESELLER, 83e75a7ae333ca9d
@@ -1555,6 +1563,7 @@ pubmatic.com, 161546, RESELLER, 5d62403b186f2ace
 
 
 startapp.com, 112360001, DIRECT
+indexexchange.com, 201411, DIRECT, 50b1c356f2c5c8fc
 
 #Fyber
 fyber.com, 213358, DIRECT
@@ -1573,10 +1582,12 @@ algorix.co, 60086, RESELLER, 5b394c12fea27a1d
 algorix.co, 60087, RESELLER, 5b394c12fea27a1d
 algorix.co, 60093, RESELLER, 5b394c12fea27a1d
 appnexus.com, 13258, RESELLER
+appnexus.com, 14077, RESELLER
 axonix.com, 56716, RESELLER
 blis.com, 74, RESELLER, 61453ae19a4b73f4
 contextweb.com, 561913, RESELLER, 89ff185a4c4e857c
 contextweb.com, 562499, RESELLER, 89ff185a4c4e857c
+conversantmedia.com, 100246, RESELLER, 03113cd04947736d
 conversantmedia.com,100269,RESELLER,03113cd04947736d
 indexexchange.com, 191572, RESELLER
 indexexchange.com, 194730, RESELLER
@@ -1604,25 +1615,41 @@ pubmatic.com, 160145, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160318, RESELLER, 5d62403b186f2ace
 pubmatic.com, 160319, RESELLER, 5d62403b186f2ace
 pubmatic.com,158271,RESELLER, 5d62403b186f2ace
+pubmatic.com,162195,RESELLER,5d62403b186f2ace
 pubnative.net, 1007055, RESELLER, d641df8625486a7b
 rhythmone.com, 4173858586, RESELLER, a670c89d4a324e47
+rubiconproject.com, 13132, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 14558, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 15320, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 16928, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 17328, RESELLER, 0bfd66d529a55807
+rubiconproject.com, 17608, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 18694, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 20744, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 22412, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 24204, RESELLER, 0bfd66d529a55807
+rubiconproject.com,24448,RESELLER,0bfd66d529a55807
+sharethrough.com, 6qlnf8SY, RESELLER, d53b998a7bd4ecd2
 sharethrough.com, K6tB2uM1, RESELLER, d53b998a7bd4ecd2
+smartclip.net,12358,RESELLER
+smartclip.net,12422,RESELLER
+smartstream.tv,667,RESELLER
 startapp.com, inr, RESELLER
+thebrave.io, 1234585, RESELLER, c25b2154543746ac
 thebrave.io, 1234598, RESELLER, c25b2154543746ac
+triplelift.com, 11656, RESELLER, 6c33edb13117fd86
+triplelift.com, 12456, RESELLER, 6c33edb13117fd86
 triplelift.com, 8844, RESELLER, 6c33edb13117fd86
 triplelift.com,10522,RESELLER,6c33edb13117fd86
 ucfunnel.com, par-BE7E29B3B48DE66BC7DDDA24E6267E29, RESELLER
 undertone.com, 4102, RESELLER
 verve.com, 14592, RESELLER, 0c8f5958fc2d6270
 video.unrulymedia.com,123476257,RESELLER
+video.unrulymedia.com,7823643795310613975,RESELLER
+VideoHeroes.tv, 212504, RESELLER, 064bc410192443d8
+xad.com, 556, RESELLER, 81cbf0a75a5e0e9a
+xandr.com, 13799, RESELLER
+xandr.com,13709,RESELLER
 yahoo.com, 59333, RESELLER, e1a5b5b6e3255540
 yahoo.com, 59531, RESELLER, e1a5b5b6e3255540
 yahoo.com, 59674, RESELLER, e1a5b5b6e3255540
