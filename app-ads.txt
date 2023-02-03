@@ -9,6 +9,8 @@ facebook.com, 1160807318038109, RESELLER, c3e20eee3f780d68
 facebook.com, 1087517561817637, RESELLER, с3e20eee3f780d68
 # Food Stylist DIY
 facebook.com, 559734548858365, RESELLER, с3e20eee3f780d68
+# Raid Party
+facebook.com, 1154425721876130, RESELLER, с3e20eee3f780d68
 
 #Facebook Ad Network
 facebook.com, 911489465574629, RESELLER, c3e20eee3f780d68
@@ -805,11 +807,6 @@ criteo.com, B-057601, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-057955, RESELLER, 9fac4a4a87c2a44f
 criteo.com, B-063105, RESELLER, 9fac4a4a87c2a44f
 exchange.admazing.co, AM3, RESELLER
-google.com, pub-5039742115488639, RESELLER
-google.com, pub-7234330288476495, RESELLER
-google.com, pub-7853853494796077, RESELLER
-google.com, pub-8161458603022252, RESELLER
-google.com, pub-8728712656723745, RESELLER
 indexexchange.com, 186081, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 186684, RESELLER, 50b1c356f2c5c8fc
 indexexchange.com, 194080, RESELLER, 50b1c356f2c5c8fc
@@ -884,11 +881,11 @@ spotx.tv, 71426, RESELLER, 7842df1d2fe2db34
 spotxchange.com, 117872, RESELLER, 7842df1d2fe2db34
 spotxchange.com, 149886, RESELLER, 7842df1d2fe2db34
 spotxchange.com, 71426, RESELLER, 7842df1d2fe2db34
-telaria.com, rwd19-13003, RESELLER, 1a4e959a1b50034a
+telaria.com, 80zxm-13003, RESELLER, 1a4e959a1b50034a
 thebrave.io, 1234594, RESELLER, c25b2154543746ac
 thebrave.io, 9840732, RESELLER, c25b2154543746ac
 themediagrid.com, SWH94X, RESELLER, 35d5010d7789b49d
-tremorhub.com, rwd19-13003, RESELLER, 1a4e959a1b50034a
+tremorhub.com, 80zxm-13003, RESELLER, 1a4e959a1b50034a
 unity.com, 13003, DIRECT, 96cabb5fbdde37a7
 velismedia.com, 1137, RESELLER
 velismedia.com, 725, RESELLER
