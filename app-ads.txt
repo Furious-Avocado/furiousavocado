@@ -1665,6 +1665,14 @@ omnifytv.com, 05096ffe925c11eda1eb0242ac120002, RESELLER
 inmobi.com, 662fb54f5d15471a80b4ddaa467e84b0, RESELLER, 83e75a7ae333ca9d
 bematterfull.com, 562499, RESELLER
 triplelift.com,13423,RESELLER, 6c33edb13117fd86
+bigo.sg,109,RESELLER
+pubmatic.com, 162588, RESELLER, 5d62403b186f2ace
+loopme.com, 11463, RESELLER, 6c8d5f95897a5a3b
+ignitemediatech.com,pub_61351,RESELLER
+outbrain.com, 009003959a5821f830a09d0bc562b43c62, RESELLER
+pangleglobal.com, 45779, RESELLER
+yandex.com, 63904735, RESELLER
+yieldmo.com, 3036313774475649025, RESELLER
 
 #Tiktok
 oceanengine.com, 12885, DIRECT
