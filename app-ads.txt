@@ -15,6 +15,8 @@ facebook.com, 1154425721876130, RESELLER, с3e20eee3f780d68
 facebook.com, 1379711642775832, RESELLER, с3e20eee3f780d68
 # Roller Painter
 facebook.com, 882293573029205, RESELLER, с3e20eee3f780d68
+# Pool Masters
+facebook.com, 634946715149913, RESELLER, с3e20eee3f780d68
 
 #Facebook Ad Network
 facebook.com, 911489465574629, RESELLER, c3e20eee3f780d68
