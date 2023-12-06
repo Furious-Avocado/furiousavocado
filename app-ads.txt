@@ -21,6 +21,8 @@ facebook.com, 634946715149913, RESELLER, с3e20eee3f780d68
 facebook.com, 2144535682417472, RESELLER, c3e20eee3f780d68
 # Playset Craft
 facebook.com, 1482955902490875, RESELLER, c3e20eee3f780d68
+# Slot Blast
+facebook.com, 394804919545189, RESELLER, c3e20eee3f780d68
 
 #Facebook Ad Network
 facebook.com, 911489465574629, RESELLER, c3e20eee3f780d68
