@@ -1,0 +1,47 @@
+name: Update app-ads.txt
+on: 
+  workflow_call:
+  schedule:
+    - cron:  '0 7 * * *'
+    
+jobs:
+  build:
+    name: Update
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set Git Config
+        run: |
+          git config --global user.name 'Furious CI'
+          git config --global user.email 'ci@furiousavocado.com'
+
+      - name: Copy FA app ads
+        run: |
+          cat app-ads.games.txt > app-ads.txt
+
+      - name: Copy CL app ads
+        run: |
+          curl https://www.crazylabs.com/app-ads.txt >> app-ads.txt
+
+      - name: Verify changed app ads
+        uses: tj-actions/verify-changed-files@v17
+        id: verify-changed-files
+        with:
+          files: |
+             app-ads.txt
+
+      - name: Commit new app ads
+        if: steps.verify-changed-files.outputs.files_changed == 'true'
+        run: |
+          git commit -am "Update app-ads.txt"
+          git push
+
+      - name: Slack notification
+        if: steps.verify-changed-files.outputs.files_changed == 'true'
+        env:
+          SLACK_WEBHOOK: ${{ secrets.slackWebhookUrl }}
+        uses: Ilshidur/action-slack@2.0.2
+        with:
+          args: "https://furiousavocado.com/app-ads.txt updated!"

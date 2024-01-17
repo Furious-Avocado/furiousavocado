@@ -1,0 +1,30 @@
+# BEGIN Facebook ownership confirmation
+
+# baby hair
+facebook.com, 446411180715119, RESELLER, с3e20eee3f780d68
+# wax
+facebook.com, 723974598961984, RESELLER, c3e20eee3f780d68
+# fireworks
+facebook.com, 1160807318038109, RESELLER, c3e20eee3f780d68
+# planet express
+facebook.com, 1087517561817637, RESELLER, с3e20eee3f780d68
+# Food Stylist DIY
+facebook.com, 559734548858365, RESELLER, с3e20eee3f780d68
+# Raid Party
+facebook.com, 1154425721876130, RESELLER, с3e20eee3f780d68
+# Keyboard Warrior
+facebook.com, 1379711642775832, RESELLER, с3e20eee3f780d68
+# Roller Painter
+facebook.com, 882293573029205, RESELLER, с3e20eee3f780d68
+# Pool Masters
+facebook.com, 634946715149913, RESELLER, с3e20eee3f780d68
+# Beauty Merge
+facebook.com, 2144535682417472, RESELLER, c3e20eee3f780d68
+# Playset Craft
+facebook.com, 1482955902490875, RESELLER, c3e20eee3f780d68
+# Slot Blast
+facebook.com, 394804919545189, RESELLER, c3e20eee3f780d68
+# Match & Spin
+facebook.com, 906822957681665, RESELLER, c3e20eee3f780d68
+
+# END Facebook ownership confirmation
