@@ -19,7 +19,7 @@ jobs:
 
       - name: Copy FA app ads
         run: |
-          cat app-ads.games.txt > app-ads.txt
+          cat app-ads-games.txt > app-ads.txt
 
       - name: Copy CL app ads
         run: |
