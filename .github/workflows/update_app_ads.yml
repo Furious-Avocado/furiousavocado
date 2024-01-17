@@ -1,6 +1,6 @@
 name: Update app-ads.txt
 on: 
-  workflow_call:
+  workflow_dispatch:
   schedule:
     - cron:  '0 7 * * *'
     
