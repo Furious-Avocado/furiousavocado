@@ -1,260 +1,883 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html lang="en-us">
 <head>
     <meta charset="utf-8">
-    <title>Furious Avocado</title>
-    <meta name="description" content="We make games.">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#118614">
-    <meta name="apple-mobile-web-app-title" content="Furious Avocado">
-    <meta name="application-name" content="Furious Avocado">
+    <!--TITLE -->
+    <title>Furious Avocado - Smashing avocados and making hit games!</title>
+    <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+    <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <meta property="og:title" content="Furious Avocado">
-    <meta property="og:description" content="Indie Game Development Studio">
-    <meta property="og:image" content="https://furiousavocado.com/logo.jpg">
-    <meta property="og:image:width" content="619">
-    <meta property="og:image:height" content="658">
-    <meta property="og:url" content="https://furiousavocado.com">
+    <!--FONTS-->
+    <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/assets/webfonts/inter/Inter-ExtraBold.woff2"/>
+    <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/assets/webfonts/inter/Inter-SemiBold.woff2"/>
+    <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/assets/webfonts/inter/Inter-Bold.woff2"/>
+    <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/assets/webfonts/inter/Inter-Regular.woff2"/>
+
+    <!--SCRIPTS-->
+    <script src="/assets/js/smooth-scroll.min.js"></script>
+    <script src="/assets/js/image-support-detection.min.js"></script>
+
+    <!--STYLE-->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/assets/css/main.min.css?v=1.1.1">
+
+    <!--META SHARE-->
+    <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="og:site_name" content="Furious Avocado">
-    <meta name="twitter:image:alt" content="Furious Avocado logo">
+    <meta property="og:title" content="Furious Avocado - Smashing avocados and making hit games!" />
+    <meta property="og:description" content="Indie game studio kickstarted by a group of friends and professionals who share the passion for creating amazing games, playing games and smashing avocados." />
+    <meta property="og:url" content="https://furiousavocado.com/" />
+    <meta property="og:site_name" content="Furious Avocado" />
+    <meta property="og:image" content="https://furiousavocado.com/assets/images/og-share.jpg" />
+    <meta property="og:image:secure_url" content="https://furiousavocado.com/assets/images/og-share.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:description" content="Indie game studio kickstarted by a group of friends and professionals who share the passion for creating amazing games, playing games and smashing avocados." />
+    <meta name="twitter:title" content="Furious Avocado - Smashing avocados and making hit games!" />
+    <meta name="twitter:image" content="https://furiousavocado.com/assets/images/og-share.jpg" />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap">
-    <link rel="stylesheet" href="css/styles.css">
 </head>
+<body class="homepage preloader-active">
 
-<body>
-    <header class="header-bg">
-        <nav class="nav-collapse">
-            <div class="nav-logo">
-                <a href="#home">
-                    <img class="logo" src="images/logo.png" srcset="images/logo@2x.png 2x" alt="Furious Avocado Logo">
-                </a>
-            </div>
-
-            <input type="checkbox" id="navToggle">
-            <label for="navToggle" class="nav-icon">
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+    <main style="opacity: 0">
+        <!--HEADER-->
+        <header class="site-header">
+            <div class="container--lg d-flex align-items-center justify-content-between">
+                <div class="site-header__logo d-flex align-items-start">
+                    <a href="/">
+                        <img src="/assets/images/logo.svg" alt="Logo" width="150" height="50">
+                    </a>
                 </div>
-            </label>
-            <label for="navToggle" class="nav-mask"></label>
-
-            <ul>
-                <li class="nav-item"><a href="#home">HOME</a></li>
-                <li class="nav-item"><a href="#about">ABOUT US</a></li>
-                <li class="nav-item"><a href="#games">GAMES</a></li>
-                <li class="nav-item"><a href="#team">TEAM</a></li>
-                <li class="nav-item"><a href="#contact">CONTACT</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home">
-        <img class="img-full img-main" src="images/MainImage.png">
-    </section>
-
-    <section id="about">
-        <div class="border-thin">
-            <h2>ABOUT FURIOUS AVOCADO</h2>
-        </div>
-
-        <div class="avocados">
-            <div class="intro">Indie game studio kickstarted by a group of friends and
-                professionals who share the passion for creating amazing games, playing games and smashing avocados. We
-                take fun seriously!
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="border-big">
-            <!-- <h2>WHAT WE DO</h2>
-            <div class="what-we-do">WE TAKE FUN EXPERIENCES AND BUILD GAMES AROUND THEM</div> -->
-
-            <h2 id="games">GAMES</h2>
-            <div class="games">
-                <div class="game">
-                    <div class="game-ss-holder">
-                        <img class="game-ss" src="images/screenshot_TieDye.png"
-                            srcset="images/screenshot_TieDye.png 270w, images/screenshot_TieDye_Small.png 140w"
-                            sizes="(max-width: 625px) 140px, 270px">
-                        <img class="game-ss" src="images/screenshot_TieDye_2.png"
-                            srcset="images/screenshot_TieDye_2.png 270w, images/screenshot_TieDye_Small_2.png 140w"
-                            sizes="(max-width: 625px) 140px, 270px">
+                <div class="site-header__menu">
+                    <div class="menu-toggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </div>
-                    <div class="game-info">
-                        <div class="game-row-1">
-                        	<div class="icon-column">
-                        		<img class="game-icon" src="images/icon_TieDye.png"
-	                                srcset="images/icon_TieDye.png 162w, images/icon_TieDye_Small.png 97w"
-	                                sizes="(max-width: 625px) 97px, 162px">
-	                            <img class="game-icon" src="images/game_of_the_year_medal.png"
-	                                srcset="images/game_of_the_year_medal.png 162w, images/game_of_the_year_medal_small.png 97w"
-	                                sizes="(max-width: 625px) 97px, 162px">
-                        	</div>
-                            <div>
-                                <div class="game-name">TIE DYE</div>
-                                <div class="game-description">
-                                	Tie Dye summer clothes and beach accessories in this DIY game.
-                                	<br /><br />
-                                	&bull; #1 rank Worldwide with over 3 million downloads in under a week!<br />
-                                    &bull; 50 million total downloads in less than 3 months!<br />
-                                    &bull; 140 million total lifetime downloads!<br />
-									<br /><br />
+                    <ul class="primary-menu d-flex align-items-center justify-content-between">
+                        <li class="menu-item"><a href="#games-section" class="scroll-to"><span>Games</span></a></li>
+                        <li class="menu-item"><a href="#about-us-section" class="scroll-to"><span>About Us</span></a></li>
+                        <li class="menu-item"><a href="#reviews-section" class="scroll-to"><span>Reviews</span></a></li>
+                        <li class="menu-item menu-btn"><a href="#career-section" class="scroll-to"><span>Join Us</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!--HERO-->
+        <section class="hero-section d-flex align-items-center bg--properties">
+            <div class="container">
+                <div class="wrapper-right d-flex justify-content-between flex-wrap flex-lg-nowrap">
+                    <div class="hero-section__col-text">
+                        <h1 class="fw--extrabold mb--10 txt--xxl">We take fun</h1>
+                        <div class="text-decorations mb--45 mb--sm-20">
+                            <img src="/assets/images/favocado-text.svg" alt="Favocado Font Text" width="530" height="80">
+                        </div>
+                        <h5 class="mb--55 mb--sm-20">Smashing avocados and making hit games!</h5>
+                        <a href="#games-section" class="btn btn--orange scroll-to">Discover More</a>
+                    </div>
+                    <div class="hero-section__col-img p--relative" id="js-hero-decorations">
+                        <div class="element-animation element-one items__layer layer" data-depth="-0.4">
+                            <picture>
+                                <source srcset="/assets/images/element-one.avif" type="image/avif">
+                                <source srcset="/assets/images/element-one.webp" type="image/webp">
+                                <img src="/assets/images/element-one.png" alt="" width="798" height="380">
+                            </picture>
+                        </div>
+                        <div class="element-animation element-two items__layer layer" data-depth="0.7">
+                            <picture>
+                                <source srcset="/assets/images/element-two.avif" type="image/avif">
+                                <source srcset="/assets/images/element-two.webp" type="image/webp">
+                                <img src="/assets/images/element-two.png" alt="" width="559" height="371">
+                            </picture>
+                        </div>
+                        <div class="element-animation element-three items__layer layer" data-depth="0.2">
+                            <picture>
+                                <source srcset="/assets/images/element-three.avif" type="image/avif">
+                                <source srcset="/assets/images/element-three.webp" type="image/webp">
+                                <img src="/assets/images/element-three.png" alt="" width="786" height="692">
+                            </picture>
+                        </div>
+                        <div class="element-animation element-four items__layer layer" data-depth="-0.2">
+                            <picture>
+                                <source srcset="/assets/images/element-four.avif" type="image/avif">
+                                <source srcset="/assets/images/element-four.webp" type="image/webp">
+                                <img src="/assets/images/element-four.png" alt="" width="884" height="751">
+                            </picture>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--GAMES-->
+        <section class="games-section py--80 bg--white p--relative overflow--hidden py--md-40">
+            <span id="games-section" class="anchor-link"></span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 txt--center">
+                        <h1 class="mb--60 mb--sm-30"><strong>Our Games</strong></h1>
+                    </div>
+
+                    <!--TIE DYE-->
+                    <div class="col-12 d-flex flex-wrap mb--60 mb--xs-30">
+                        <div class="item-column game-tie-dye bg--properties column-left-border p--relative">
+                            <div class="item-bg-image items__layer layer" data-depth="0.4">
+                                <picture>
+                                    <source srcset="/assets/images/summer-bg.avif" type="image/avif">
+                                    <source srcset="/assets/images/summer-bg.webp" type="image/webp">
+                                    <img src="/assets/images/summer-bg.jpg" alt="Item Bg Summer" width="1070" height="1070" class="item-bg-paralax">
+                                </picture>
+                            </div>
+                            <div class="item-images d-flex align-items-end">
+                                <div class="item-img__girl items__layer layer" data-depth="0.4">
+                                    <div class="girl-paralax">
+                                        <picture>
+                                            <source srcset="/assets/images/female.avif" type="image/avif">
+                                            <source srcset="/assets/images/female.webp" type="image/webp">
+                                            <img src="/assets/images/female.png" alt="Game Girl." width="293" height="530">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="item-img__boy items__layer layer" data-depth="0.8">
+                                    <picture>
+                                        <source srcset="/assets/images/male.avif" type="image/avif">
+                                        <source srcset="/assets/images/male.webp" type="image/webp">
+                                        <img src="/assets/images/male.png" alt="Game Boy." width="277" height="530" class="boy-paralax">
+                                    </picture>
+                                </div>
+                                <div class="item-img__decoration items__layer layer" data-depth="-0.3">
+                                    <div class="decorations-paralax">
+                                        <picture>
+                                            <source srcset="/assets/images/confetti.avif" type="image/avif">
+                                            <source srcset="/assets/images/confetti.webp" type="image/webp">
+                                            <img src="/assets/images/confetti.png" alt="Decorations." width="420" height="465">
+                                        </picture>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="game-row-2">
-                            <a class="store-link" href="https://apps.apple.com/us/app/tie-dye/id1514604864"
-                                target="_blank"><img src="images/Badge_AppStore.png"
-                                    srcset="images/Badge_AppStore.png 224w, images/Badge_AppStore_Small.png 140w"
-                                    sizes="(max-width: 625px) 140px, 224px"></a>
-                            <a class="store-link"
-                                href="https://play.google.com/store/apps/details?id=com.crazylabs.tie.dye.art"
-                                target="_blank"><img src="images/Badge_PlayStore.png"
-                                    srcset="images/Badge_PlayStore.png 252w, images/Badge_PlayStore_Small.png 140w"
-                                    sizes="(max-width: 625px) 140px, 252px"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="divider divider-transparent" style="padding-bottom: 90px;"></div>
-                <div class="game">
-                    <div class="game-ss-holder">
-                        <img class="game-ss" src="images/screenshot_CandleCraft.png"
-                            srcset="images/screenshot_CandleCraft.png 270w, images/screenshot_CandleCraftSmall.png 140w"
-                            sizes="(max-width: 625px) 140px, 270px">
-                        <img class="game-ss" src="images/screenshot_CandleCraft_2.png"
-                            srcset="images/screenshot_CandleCraft_2.png 270w, images/screenshot_CandleCraft_2Small.png 140w"
-                            sizes="(max-width: 625px) 140px, 270px">
-                    </div>
-                    <div class="game-info">
-                        <div class="game-row-1">
-                        	<div class="icon-column">
-                        		<img class="game-icon" src="images/icon_CandleCraft.png"
-	                                srcset="images/icon_CandleCraft.png 162w, images/icon_CandleCraftSmall.png 97w"
-	                                sizes="(max-width: 625px) 97px, 162px">
-                        	</div>
-                            <div>
-                                <div class="game-name">CANDLE CRAFT</div>
-                                <div class="game-description">
-                                	Create amazing candles and showcase your precision and creativity skills in this simulation game.
-                                	<br /><br />
-                                	#1 US in the first week of its release!<br />
-									<br /><br />
+                        <div class="item-column bg--grey column-right-border">
+                            <div class="item-text">
+                                <h2 class="mb--15"><strong>Tie Dye</strong></h2>
+                                <p class="mb--25">Tie Dye summer clothes and beach accessories in this DIY smash hit.</p>
+
+                                <div class="item-text__counter d-flex align-items-center mb--15">
+                                    <div class="item-text__counter--number">
+                                        <h5 class="mb--0"><strong><span id="counter1" data-stop="160" data-speed="8">0</span>M</strong></h5>
+                                    </div>
+                                    <div class="item-text__counter--text">
+                                        <p class="mb--0">Total downloads and counting!</p>
+                                    </div>
+                                </div>
+
+                                <div class="item-text__counter d-flex align-items-center mb--15">
+                                    <div class="item-text__counter--number">
+                                        <h5 class="mb--0"><strong>#1</strong></h5>
+                                    </div>
+                                    <div class="item-text__counter--text">
+                                        <p class="mb--0">Rank Worldwide in its first week of release!</p>
+                                    </div>
+                                </div>
+
+                                <div class="item-text__counter d-flex align-items-center mb--40">
+                                    <div class="item-text__counter--number">
+                                        <h5 class="mb--0"><strong>4.7</strong></h5>
+                                    </div>
+                                    <div class="item-text__counter--text">
+                                        <p class="mb--0">Average App Store score!</p>
+                                    </div>
+                                </div>
+
+                                <div class="store-box__buttons d-flex align-items-center">
+                                    <a href="https://play.google.com/store/apps/details?id=com.crazylabs.tie.dye.art" target="_blank" rel="noopener" class="d-flex align-items-start mb--0"><img src="/assets/images/google-play.svg" alt="Play Store Badge" width="180" height="54"></a>
+                                    <a href="https://apps.apple.com/us/app/tie-dye/id1514604864" target="_blank" rel="noopener" class="d-flex align-items-start mb--0"><img src="/assets/images/app-store.svg" alt="Apple Store Badge" width="180" height="54"></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="game-row-2">
-                            <a class="store-link" href="https://apps.apple.com/us/app/candle-craft-3d/id1585173714"
-                                target="_blank"><img src="images/Badge_AppStore.png"
-                                    srcset="images/Badge_AppStore.png 224w, images/Badge_AppStore_Small.png 140w"
-                                    sizes="(max-width: 625px) 140px, 224px"></a>
-                            <a class="store-link"
-                                href="https://play.google.com/store/apps/details?id=com.furiousavocado.candlecraft3d"
-                                target="_blank"><img src="images/Badge_PlayStore.png"
-                                    srcset="images/Badge_PlayStore.png 252w, images/Badge_PlayStore_Small.png 140w"
-                                    sizes="(max-width: 625px) 140px, 252px"></a>
+                    </div>
+
+                    <!--CANDLE CRAFT-->
+                    <div class="col-12 d-flex flex-wrap column-reverse">
+                        <div class="item-column game-candle-craft bg--properties column-right-border p--relative order-lg-1">
+                            <div class="item-bg-image items__layer layer" data-depth="0.4">
+                                <picture>
+                                    <source srcset="/assets/images/candle-desc.avif" type="image/avif">
+                                    <source srcset="/assets/images/candle-desc.webp" type="image/webp">
+                                    <img src="/assets/images/candle-desc.jpg" alt="Item Bg Desc" width="1070" height="1070" class="item-bg-paralax">
+                                </picture>
+                            </div>
+                            <div class="item-images">
+                                <div class="items__layer layer" data-depth="0.4">
+                                    <div class="item-img__candle-one">
+                                        <picture>
+                                            <source srcset="/assets/images/candle-one.avif" type="image/avif">
+                                            <source srcset="/assets/images/candle-one.webp" type="image/webp">
+                                            <img src="/assets/images/candle-one.png" alt="Candle One." width="287" height="496">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="items__layer layer" data-depth="0.4">
+                                    <div class="item-img__candle-two">
+                                        <picture>
+                                            <source srcset="/assets/images/candle-two.avif" type="image/avif">
+                                            <source srcset="/assets/images/candle-two.webp" type="image/webp">
+                                            <img src="/assets/images/candle-two.png" alt="Candle Two." width="376" height="448">
+                                        </picture>
+                                    </div>
+                                </div>
+
+                                <div class="items__layer layer" data-depth="0.4">
+                                    <div class="item-img__decoration-dots">
+                                        <picture>
+                                            <source srcset="/assets/images/candle-confetti.avif" type="image/avif">
+                                            <source srcset="/assets/images/candle-confetti.webp" type="image/webp">
+                                            <img src="/assets/images/candle-confetti.png" alt="Decorations." width="588" height="346">
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-column bg--grey column-left-border">
+                            <div class="item-text">
+                                <h2 class="mb--15"><strong>Candle Craft</strong></h2>
+                                <p class="mb--25">Create amazing candles and showcase your precision and creativity skills in this relaxing game.</p>
+
+                                <div class="item-text__counter d-flex align-items-center mb--15">
+                                    <div class="item-text__counter--number">
+                                        <h5 class="mb--0"><strong>#1</strong></h5>
+                                    </div>
+                                    <div class="item-text__counter--text">
+                                        <p class="mb--0">US in its first week of release!</p>
+                                    </div>
+                                </div>
+
+                                <div class="item-text__counter d-flex align-items-center mb--15">
+                                    <div class="item-text__counter--number">
+                                        <h5 class="mb--0"><strong><span id="counter2" data-stop="230" data-speed="5">0</span>M</strong></h5>
+                                    </div>
+                                    <div class="item-text__counter--text">
+                                        <p class="mb--0">Candles Carved!</p>
+                                    </div>
+                                </div>
+
+                                <div class="item-text__counter d-flex align-items-center mb--40">
+                                    <div class="item-text__counter--number">
+                                        <h5 class="mb--0"><strong>4.4</strong></h5>
+                                    </div>
+                                    <div class="item-text__counter--text">
+                                        <p class="mb--0">Average App Store score!</p>
+                                    </div>
+                                </div>
+
+                                <div class="store-box__buttons d-flex align-items-center">
+                                    <a href="https://play.google.com/store/apps/details?id=com.furiousavocado.candlecraft3d" target="_blank" rel="noopener" class="d-flex align-items-start mb--0"><img src="/assets/images/google-play.svg" alt="Play Store Badge" width="180" height="54"></a>
+                                    <a href="https://apps.apple.com/us/app/candle-craft-3d/id1585173714" target="_blank" rel="noopener" class="d-flex align-items-start mb--0"><img src="/assets/images/app-store.svg" alt="Apple Store Badge" width="180" height="54"></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- <img class="game-icon" src="images/icon_Destruction.png"
-                    srcset="images/icon_Destruction.png 152w, images/icon_Destruction_Small.png 91w"
-                    sizes="(max-width: 625px) 91px, 152px">
-                <img class="game-icon" src="images/icon_Makeup.png"
-                    srcset="images/icon_Makeup.png 152w, images/icon_Makeup_Small.png 91w"
-                    sizes="(max-width: 625px) 91px, 152px"> -->
             </div>
-            <!-- </div> -->
-            <!-- <img class="img-full" src="images/games.jpg"> -->
-            <h2 id="team">THE TEAM</h2>
-            <!-- </section> -->
+        </section>
+        <!--OUR TEAM-->
+        <section class="our-team-section p--relative overflow--hidden bg--green-gradient py--lg-40">
+            <span id="about-us-section" class="anchor-link"></span>
+            <div class="container">
+                <div class="wrapper-right d-flex justify-content-between align-items-center flex-wrap flex-xl-nowrap">
+                    <div class="box--left txt--white py--20 py--lg-0">
+                        <div class="box--left__wrap" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="swiper js-carousel-navigation">
 
-            <!-- <section id="team"> -->
-            <!-- <div class="border-big"> -->
-            <!-- <h2>WHO WE ARE</h2>
-            <div class="who-we-are">A small group of friends and professionals. Often resembling a tribe when it comes
-                to brainstorming or catching a deadline.</div> -->
-            <div class="people">
-                <a class="person" href="https://www.linkedin.com/in/naum-mihajlovski-50515556/" target="_blank">
-                    <img class="person-icon" src="images/Naum.png"
-                        srcset="images/Naum.png 222w, images/Naum_Small.png 133w"
-                        sizes="(max-width: 768px) 133px, 222px">
-                    <div class="person-name">Naum Mihajlovski</div>
-                </a>
-                <a class="person" href="https://www.linkedin.com/in/boban-stojcevski-80062467/" target="_blank">
-                    <img class="person-icon" src="images/Bobo.png"
-                        srcset="images/Bobo.png 222w, images/Bobo_Small.png 133w"
-                        sizes="(max-width: 768px) 133px, 222px">
-                    <div class="person-name">Boban Stojcevski</div>
-                </a>
-                <a class="person" href="https://www.linkedin.com/in/ampov-mario/" target="_blank">
-                    <img class="person-icon" src="images/Mario.png"
-                        srcset="images/Mario.png 222w, images/Mario_Small.png 133w"
-                        sizes="(max-width: 768px) 133px, 222px">
-                    <div class="person-name">Mario Ampov</div>
-                </a>
-                <a class="person" href="https://www.linkedin.com/in/ivoneskovic/" target="_blank">
-                    <img class="person-icon" src="images/Ivo.png"
-                        srcset="images/Ivo.png 222w, images/Ivo_Small.png 133w" sizes="(max-width: 768px) 133px, 222px">
-                    <div class="person-name">Ivo Neskovic</div>
-                </a>
-                <a class="person" href="https://www.linkedin.com/in/tomidzurovski/" target="_blank">
-                    <img class="person-icon" src="images/Tomi.png"
-                        srcset="images/Tomi.png 222w, images/Tomi_Small.png 133w"
-                        sizes="(max-width: 768px) 133px, 222px">
-                    <div class="person-name">Tomi Dzurovski</div>
-                </a>
-                <a class="person" href="https://www.linkedin.com/in/damjan-mihailov-160216a/" target="_blank">
-                    <img class="person-icon" src="images/Damjan.png"
-                        srcset="images/Damjan.png 222w, images/Damjan_Small.png 133w"
-                        sizes="(max-width: 768px) 133px, 222px">
-                    <div class="person-name">Damjan Mihailov</div>
-                </a>
-                <!-- <a class="person" href="https://www.linkedin.com/in/marjan-dimic-087567111/" target="_blank">
-                    <img class="person-icon" src="images/Macka.png"
-                        srcset="images/Macka.png 222w, images/Macka_Small.png 133w"
-                        sizes="(max-width: 768px) 133px, 222px">
-                    <div class="person-name">Marjan Dimic</div>
-                </a>
-                <a class="person" href="https://www.linkedin.com/in/andrejcvetanovski/" target="_blank">
-                    <img class="person-icon" src="images/Andrej.png"
-                        srcset="images/Andrej.png 222w, images/Andrej_Small.png 133w"
-                        sizes="(max-width: 768px) 133px, 222px">
-                    <div class="person-name">Andrej Cvetanovski</div>
-                </a> -->
-                <a class="person" href="https://www.linkedin.com/in/jmatoski/" target="_blank">
-                    <img class="person-icon" src="images/Jovan.png"
-                        srcset="images/Jovan.png 222w, images/Jovan_Small.png 133w"
-                        sizes="(max-width: 768px) 133px, 222px">
-                    <div class="person-name">Jovan Matoski</div>
-                </a>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <h1 class="mb--30 txt--white"><strong>Smashing avocados everywhere!</strong></h1>
+                                        <div class="box--left__wrap--text mb--100 mb--xxxl-40">
+                                            <p>Furious Avocado is an indie game studio, founded at the beginning of 2020 by a group of friends and professionals who share the passion for creating amazing games and smashing avocados.</p>
+                                            <p>Situated in Skopje, Macedonia, in addition to attracting the country's most talented game developers, the studio has become an attractive destination for team members from Germany, the Netherlands and Serbia.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <h1 class="mb--30 txt--white"><strong>Bring it on!</strong></h1>
+                                        <div class="box--left__wrap--text mb--100 mb--xxxl-40">
+                                            <p>Working with the industry's leading game publishers, Crazy Labs and Voodoo, the studio has become a hyper-casual powerhouse in record time.</p>
+                                            <p>With an agile mindset and constant exploration, the studio is ready to step into the waters of casual gaming in the near future.</p>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <h1 class="mb--30 txt--white"><strong>Create, relax, have fun!</strong></h1>
+                                        <div class="box--left__wrap--text mb--100 mb--xxxl-40">
+                                            <p>Since it was founded in 2020, Furious Avocado has doubled in size and continues to grow at a rapid pace.</p>
+                                            <p>Furious Avocado is constantly expanding its talent pool with outstanding professionals who share our passion for creating amazing games, having fun, and working in a stress-free environment with an amazing work-life balance.</p>
+                                            <p>Our employees enjoy a number of world-class benefits while working in our remote-first environment.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-navigation-wrap d-none d-xl-flex align-items-center">
+                                    <div class="swiper-buttons-wrap d-flex align-items-center">
+                                        <div class="swiper-button-prev">
+                                            <span class="swiper-button-white"><i class="far fa-arrow-left"></i></span>
+                                        </div>
+                                        <div class="swiper-button-next">
+                                            <span class="swiper-button-white"><i class="far fa-arrow-right"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box--right">
+                        <div class="swiper carousel-images js-carousel-images">
+                            <div class="swiper-wrapper mb--lg-30">
+                                <div class="swiper-slide">
+                                    <picture>
+                                        <source srcset="/assets/images/team-collage-1.avif" type="image/avif">
+                                        <source srcset="/assets/images/team-collage-1.webp" type="image/webp">
+                                        <img src="/assets/images/team-collage-1.png" alt="Our Team One" width="1045" height="780">
+                                    </picture>
+                                </div>
+                                <div class="swiper-slide">
+                                    <picture>
+                                        <source srcset="/assets/images/team-collage-2.avif" type="image/avif">
+                                        <source srcset="/assets/images/team-collage-2.webp" type="image/webp">
+                                        <img src="/assets/images/team-collage-2.png" alt="Our Team Two" width="1045" height="780">
+                                    </picture>
+                                </div>
+                                <div class="swiper-slide">
+                                    <picture>
+                                        <source srcset="/assets/images/team-collage-3.avif" type="image/avif">
+                                        <source srcset="/assets/images/team-collage-3.webp" type="image/webp">
+                                        <img src="/assets/images/team-collage-3.png" alt="Our Team Three" width="1045" height="780">
+                                    </picture>
+                                </div>
+                            </div>
+
+                            <div class="swiper-navigation-wrap d-flex align-items-center d-xl-none justify-content-center">
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-buttons-wrap d-flex align-items-center">
+                                    <div class="swiper-button-prev">
+                                        <span class="swiper-button-white"><i class="far fa-arrow-left"></i></span>
+                                    </div>
+                                    <div class="swiper-button-next">
+                                        <span class="swiper-button-white"><i class="far fa-arrow-right"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <img class="img-full" src="images/team.jpg" srcset="images/team@2x.jpg 2x">
-    </section>
+        </section>
+        <!--JOIN US-->
+        <section class="join-us-section py--80 bg--white p--relative py--lg-40">
+            <span id="career-section" class="anchor-link"></span>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 txt--center">
+                        <h1 class="mb--50 mb--sm-30"><strong>Join Us</strong></h1>
+                    </div>
 
-    <footer class="footer-bg" id="contact">
-        <h2>CONTACT US</h2>
-        <div class="email"><img src="images/mail.png"><a
-                href="mailto:contact@furiousavocado.com">contact@furiousavocado.com</a></div>
-        <div class="copyright">&copy; 2022 FURIOUS AVOCADO</div>
-    </footer>
+                    <!--Unity Game Programmer-->
+                    <!-- <div class="col-md-12 mb--20" data-aos="fade-up" data-aos-duration="1200">
+                        <a href="/unity-game-programmer/" class="career-item bg--grey">
+                            <div class="career-item__header">
+                                <h4 class="mb--15"><strong>Unity Game Programmer</strong></h4>
+                                <ul class="career-item__tags d-flex align-items-center justify-content-between mb--15">
+                                    <li class="bg--dark-green">Development</li>
+                                    <li class="bg--blue">Remote</li>
+                                    <li class="bg--blue">Full time</li>
+                                </ul>
+                            </div>
+                            <div class="career-item__content">
+                                <p>We are looking for an experienced Unity Developer to join our dynamic team responsible for creating, building, maintaining, and optimizing our games for mobile (iOS and Android) platforms.</p>
+                                <p class="career-item__apply-link"><strong>Apply Now</strong></p>
+                            </div>
+                        </a>
+                    </div> -->
 
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/gumshoe@5/dist/gumshoe.polyfills.min.js"></script>
-    <script src="js/main.js"></script>
+                    <!--Technical Artist-->
+                    <!-- <div class="col-md-12 mb--20" data-aos="fade-up" data-aos-duration="1200">
+                        <a href="/technical-artist/" class="career-item bg--grey">
+                            <div class="career-item__header">
+                                <h4 class="mb--15"><strong>Technical Artist</strong></h4>
+                                <ul class="career-item__tags d-flex align-items-center justify-content-between mb--15">
+                                    <li class="bg--orange">Design</li>
+                                    <li class="bg--blue">Remote</li>
+                                    <li class="bg--blue">Full time</li>
+                                </ul>
+                            </div>
+                            <div class="career-item__content">
+                                <p>We are looking for an experienced Technical artist to join our creative team in making visual awesomeness for our games by creating tools and systems that will help both worlds, art and development.</p>
+                                <p class="career-item__apply-link"><strong>Apply Now</strong></p>
+                            </div>
+                        </a>
+                    </div> -->
+
+                    <div class="col-md-12" data-aos="fade-up" data-aos-duration="1200">
+                        <a href="https://forms.gle/Hkip4PLwMznmt8du7" target="_blank" rel="noopener" class="career-item border-dashed">
+                            <div class="career-item__header">
+                                <h4 class="mb--15"><strong>Don't see your role?</strong></h4>
+                            </div>
+                            <div class="career-item__content">
+                                <p>If we don't have an open job position for a role that you're extremely good at, you can still apply. We're always looking for ambitious and motivated colleagues :)</p>
+                                <p class="career-item__apply-link"><strong>Apply Now</strong></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--REVIEWS-->
+        <section class="reviews-section p--relative overflow--hidden bg--grey py--70 py--lg-40">
+            <span id="reviews-section" class="anchor-link"></span>
+            <div class="container">
+                <div class="wrapper-right d-flex justify-content-between align-items-center flex-wrap flex-xl-nowrap">
+                    <div class="box--left box-left--sm txt--white">
+                        <div class="box--left__wrap">
+                            <h1 class="mb--70 mb--lg-30"><strong>What they <br class="d-none d-xl-inline-block"> are saying</strong></h1>
+
+                            <div class="swiper js-carousel-navigation-two">
+                                <div class="swiper-navigation-wrap d-none d-xl-flex align-items-center">
+                                    <div class="swiper-buttons-wrap d-flex align-items-center">
+                                        <div class="swiper-button-prev">
+                                            <span class="swiper-button-green"><i class="far fa-arrow-left"></i></span>
+                                        </div>
+                                        <div class="swiper-button-next">
+                                            <span class="swiper-button-green"><i class="far fa-arrow-right"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-pagination swiper-pagination--grey"></div>
+                                </div>
+
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide"></div>
+                                    <div class="swiper-slide"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box--right box-right--lg">
+                        <div class="swiper js-carousel-item">
+                            <div class="swiper-wrapper mb--lg-30">
+                                <!--Melinda M Weaver-->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="testimonial-box__header">
+                                            <div class="testimonial-box__content">
+                                                <h6><strong>Melinda M Weaver</strong></h6>
+                                                <div class="testimonial-box__stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <p>It starts on like "what did I download" but as you’re going through the steps to complete your orders, of either shirt, skirt or something else to be tie-dyed, it becomes a whole lot more than just a cute little game it's addictive and fun!
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-box__footer">
+                                            <picture>
+                                                <source srcset="/assets/images/tie-dye.avif" type="image/avif">
+                                                <source srcset="/assets/images/tie-dye.webp" type="image/webp">
+                                                <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            </picture>
+
+                                            <h6><strong>Tie Dye</strong></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Ashley Porter-->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="testimonial-box__header">
+                                            <div class="testimonial-box__content">
+                                                <h6><strong>Ashley Porter</strong></h6>
+                                                <div class="testimonial-box__stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <p>I love the carving process and colors and all the designs you can make with the wax. It's just all around relaxing. 10/10</p>
+                                        </div>
+                                        <div class="testimonial-box__footer">
+                                            <picture>
+                                                <source srcset="/assets/images/candle-craft.avif" type="image/avif">
+                                                <source srcset="/assets/images/candle-craft.webp" type="image/webp">
+                                                <img src="/assets/images/candle-craft.png" alt="Candle Craft" width="44" height="45">
+                                            </picture>
+                                            <h6><strong>Candle Craft</strong></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Meggin Slowter-->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="testimonial-box__header">
+                                            <div class="testimonial-box__content">
+                                                <h6><strong>Meggin Slowter</strong></h6>
+                                                <div class="testimonial-box__stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <p>I like it!! lol Pretty freakin cool. Gives me lots of different ideas I can use for my own designs IRL. All the tye dye practice without any of the mess!!</p>
+                                        </div>
+                                        <div class="testimonial-box__footer">
+                                            <picture>
+                                                <source srcset="/assets/images/tie-dye.avif" type="image/avif">
+                                                <source srcset="/assets/images/tie-dye.webp" type="image/webp">
+                                                <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            </picture>
+                                            <h6><strong>Tie Dye</strong></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Izzy Hansel-->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="testimonial-box__header">
+                                            <div class="testimonial-box__content">
+                                                <h6><strong>Izzy Hansel</strong></h6>
+                                                <div class="testimonial-box__stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <p>I just downloaded the app like last night and I already love it. Candle making is a hobby of mine that i absolutely adore so now to see that they're is a game for it really warms my heart</p>
+                                        </div>
+                                        <div class="testimonial-box__footer">
+                                            <picture>
+                                                <source srcset="/assets/images/candle-craft.avif" type="image/avif">
+                                                <source srcset="/assets/images/candle-craft.webp" type="image/webp">
+                                                <img src="/assets/images/candle-craft.png" alt="Candle Craft" width="44" height="45">
+                                            </picture>
+                                            <h6><strong>Candle Craft</strong></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Juliet Loiselle-->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="testimonial-box__header">
+                                            <div class="testimonial-box__content">
+                                                <h6><strong>Juliet Loiselle</strong></h6>
+                                                <div class="testimonial-box__stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <p>I love the game, it is so fun to play. It is very realistic. You can tie dye, add stickers, upgrade your shop, get money, and so much more. I really enjoy this and would recommend it to you all! It is a great game for free.</p>
+                                        </div>
+                                        <div class="testimonial-box__footer">
+                                            <picture>
+                                                <source srcset="/assets/images/tie-dye.avif" type="image/avif">
+                                                <source srcset="/assets/images/tie-dye.webp" type="image/webp">
+                                                <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            </picture>
+                                            <h6><strong>Tie Dye</strong></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--1234BOBA-->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="testimonial-box__header">
+                                            <div class="testimonial-box__content">
+                                                <h6><strong>1234BOBA</strong></h6>
+                                                <div class="testimonial-box__stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <p>SOO FUN!!! I absolutely love this game! Its to incredibly fun! It’s perfect for my tie dye addict sister!! It’s probably my favorite game EVER!! The moment I saw it I screamed with joy!! It’s sooo cute! I love the decorates and shop stuff! I could just go on and on! ITS THE BEST GAME EVER!!! I would definitely recommend this game to all ages! Especially for people who LOVE tie dye!</p>
+                                        </div>
+                                        <div class="testimonial-box__footer">
+                                            <picture>
+                                                <source srcset="/assets/images/tie-dye.avif" type="image/avif">
+                                                <source srcset="/assets/images/tie-dye.webp" type="image/webp">
+                                                <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            </picture>
+                                            <h6><strong>Tie Dye</strong></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Allie Fox-->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="testimonial-box__header">
+                                            <div class="testimonial-box__content">
+                                                <h6><strong>Allie Fox</strong></h6>
+                                                <div class="testimonial-box__stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <p>This is my all time favorite game I play it every day</p>
+                                        </div>
+                                        <div class="testimonial-box__footer">
+                                            <picture>
+                                                <source srcset="/assets/images/candle-craft.avif" type="image/avif">
+                                                <source srcset="/assets/images/candle-craft.webp" type="image/webp">
+                                                <img src="/assets/images/candle-craft.png" alt="Candle Craft" width="44" height="45">
+                                            </picture>
+                                            <h6><strong>Candle Craft</strong></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Alyson Bate-->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="testimonial-box__header">
+                                            <div class="testimonial-box__content">
+                                                <h6><strong>Alyson Bate</strong></h6>
+                                                <div class="testimonial-box__stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <p>This game is very entertaining, and doesn't try to get you to buy things just to play the game. It's easy to level up, earn coins to decorate your shop, & sometimes you get free creative opportunities with no rules. Definitely recommend.</p>
+                                        </div>
+                                        <div class="testimonial-box__footer">
+                                            <picture>
+                                                <source srcset="/assets/images/tie-dye.avif" type="image/avif">
+                                                <source srcset="/assets/images/tie-dye.webp" type="image/webp">
+                                                <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            </picture>
+                                            <h6><strong>Tie Dye</strong></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Ryan Hogan-->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="testimonial-box__header">
+                                            <div class="testimonial-box__content">
+                                                <h6><strong>Ryan Hogan</strong></h6>
+                                                <div class="testimonial-box__stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <p>Five star Cuz ITS SO FUUUUUUUUUUNNNNNNNNNNNNNNNNNNNN</p>
+                                        </div>
+                                        <div class="testimonial-box__footer">
+                                            <picture>
+                                                <source srcset="/assets/images/candle-craft.avif" type="image/avif">
+                                                <source srcset="/assets/images/candle-craft.webp" type="image/webp">
+                                                <img src="/assets/images/candle-craft.png" alt="Candle Craft" width="44" height="45">
+                                            </picture>
+                                            <h6><strong>Candle Craft</strong></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--B Mills-->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="testimonial-box__header">
+                                            <div class="testimonial-box__content">
+                                                <h6><strong>B Mills</strong></h6>
+                                                <div class="testimonial-box__stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <p>This app is great!! I love playing it. I like doing the vip customers because they give you so much money. I like decorating the way your shop looks and having so many peices of clothing to unlock. This game platform is a great way to show your creativity. I will not be deleting this app for a very long time! It keeps me busy and it also keeps my mind busy.</p>
+                                        </div>
+                                        <div class="testimonial-box__footer">
+                                            <picture>
+                                                <source srcset="/assets/images/tie-dye.avif" type="image/avif">
+                                                <source srcset="/assets/images/tie-dye.webp" type="image/webp">
+                                                <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            </picture>
+                                            <h6><strong>Tie Dye</strong></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Kenzy-->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="testimonial-box__header">
+                                            <div class="testimonial-box__content">
+                                                <h6><strong>Kenzy</strong></h6>
+                                                <div class="testimonial-box__stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <p>I've been really addicted to this app since I downloaded it. The controls are super easy, love the different colors to choose from. The dying itself is so fun as well, watching the colors mix and playing with designs is relaxing. Love this game!</p>
+                                        </div>
+                                        <div class="testimonial-box__footer">
+                                            <picture>
+                                                <source srcset="/assets/images/tie-dye.avif" type="image/avif">
+                                                <source srcset="/assets/images/tie-dye.webp" type="image/webp">
+                                                <img src="/assets/images/tie-dye.png" alt="Tie Dye Icon" width="44" height="45">
+                                            </picture>
+                                            <h6><strong>Tie Dye</strong></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Misty Crisman-->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-box">
+                                        <div class="testimonial-box__header">
+                                            <div class="testimonial-box__content">
+                                                <h6><strong>Misty Crisman</strong></h6>
+                                                <div class="testimonial-box__stars">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <p>Very very fun I loved how you could make custom candles</p>
+                                        </div>
+                                        <div class="testimonial-box__footer">
+                                            <picture>
+                                                <source srcset="/assets/images/candle-craft.avif" type="image/avif">
+                                                <source srcset="/assets/images/candle-craft.webp" type="image/webp">
+                                                <img src="/assets/images/candle-craft.png" alt="Candle Craft" width="44" height="45">
+                                            </picture>
+                                            <h6><strong>Candle Craft</strong></h6>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="swiper-navigation-wrap d-flex align-items-center d-xl-none justify-content-center">
+                                <div class="swiper-pagination swiper-pagination--grey"></div>
+                                <div class="swiper-buttons-wrap d-flex align-items-center">
+                                    <div class="swiper-button-prev">
+                                        <span class="swiper-button-green"><i class="far fa-arrow-left"></i></span>
+                                    </div>
+                                    <div class="swiper-button-next">
+                                        <span class="swiper-button-green"><i class="far fa-arrow-right"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--FOOTER-->
+        <footer>
+            <div class="site-footer">
+                <div class="container d-flex align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="site-footer__logo d-flex align-items-start">
+                        <img src="/assets/images/footer-logo.svg" alt="White Logo" width="219" height="74">
+                    </div>
+                    <div class="site-footer__social-media">
+                        <ul class="d-flex align-items-center">
+                            <li><a href="https://www.facebook.com/furiousavocado/" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/furious-avocado/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <div class="container d-flex align-items-center justify-content-between flex-column flex-sm-row">
+                    <p class="mb--0 mb--xs-10">Copyright ©  2022 Furious Avocado</p>
+                    <p class="mb--0">Crafted by <a href="https://codeart.mk/" target="_blank" rel="noopener">codeart.</a></p>
+                </div>
+            </div>
+        </footer>
+        <!--JOIN US MOBILE BUTTON-->
+        <a href="#career-section" class="mobile-btn bg--orange txt--white txt--uppercase txt--center scroll-to d-block d-sm-none"><strong>Join Us</strong></a>
+
+    </main>
+
+    <div id="preloader-box" class="preloader-box">
+        <div id="preloader" class="preloader"></div>
+    </div>
+
+    <!--PRELOADER-->
+    <script src="/assets/js/lottie.min.js"></script>
+    <script>
+
+        const preloader = document.getElementById('preloader-box');
+        function removeStyleForPreloader() {
+            preloader.classList.add("remove");
+            document.getElementsByClassName('homepage')[0].classList.remove('preloader-active')
+            document.getElementsByTagName('main')[0].style.opacity = "1";
+        }
+
+        // if(sessionStorage.getItem('player-loader') !== "true") {
+            const animation = bodymovin.loadAnimation({
+                container: document.getElementById('preloader'),
+                path: '/assets/animation/preloader.json',
+                renderer: 'svg',
+                loop: false,
+                autoplay: true,
+                name: "Logo" // optional
+            });
+            animation.onComplete = function () {
+                removeStyleForPreloader();
+                sessionStorage.setItem('player-loader', "true");
+            };
+        // } else {
+        //     removeStyleForPreloader();
+        // }
+
+    </script>
+
+    <!--SCRIPTS-->
+    <script src="/assets/js/swiper-bundle.min.js" defer></script>
+    <script src="/assets/js/parallax.min.js" defer></script>
+    <script src="/assets/js/simpleParallax.min.js" defer></script>
+    <script src="/assets/js/responsive-menu.min.js" defer></script>
+    <script src="/assets/js/aos.min.js" defer></script>
+
+    <script src="/assets/js/app.min.js?v=1.0.1" defer></script>
 </body>
-
 </html>

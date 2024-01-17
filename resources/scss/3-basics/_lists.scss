@@ -1,0 +1,26 @@
+/*----------------------------------------------------------------------------*/
+/*#LISTS STYLE*/
+/*----------------------------------------------------------------------------*/
+.info-content ul {
+	padding-left: 5px;
+	margin-bottom: 30px;
+
+	& li {
+		position: relative;
+		font-size: 16px;
+		line-height: 26px;
+		margin-bottom: 10px;
+		padding-left: 25px;
+
+		&::before {
+			content: "";
+			position: absolute;
+			left: 5px;
+			top: 10px;
+			width: 5px;
+			height: 5px;
+			background-color: #4D4D4D;
+			border-radius: 50%;
+		}
+	}
+}

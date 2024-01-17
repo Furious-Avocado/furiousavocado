@@ -1,0 +1,89 @@
+
+@include screen(xxxl) {
+	.container--lg {
+    	padding-left:  15px;
+    	padding-right: 15px;
+	}
+
+	h1 { 
+	    font-size: 36px; 
+	    line-height: 1.3;
+	}
+
+	.mb--xxxl-40 { margin-bottom: 40px; }
+}
+
+@include screen(xxl) { }
+
+@include screen(xl) {
+	.txt--xxl {
+    	font-size: 80px;
+    	letter-spacing: -.04em;
+	}	
+
+	h2 { font-size: 32px; }
+
+	h3 { font-size: 26px; }
+
+	h4 { font-size: 20px; }
+
+	h5 { font-size: 18px; }
+
+	h6 { font-size: 16px; }
+
+	p, 
+	ol li, 
+	ul li {
+    	font-size: 16px;
+	}
+}
+
+@include screen(lg) {
+	.py--lg-0 {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.py--lg-40 {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.mb--lg-30 { margin-bottom: 30px; }
+}
+
+@include screen(md) {
+	.py--md-40 {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.mb--md-50 { margin-bottom: 50px; }
+}
+
+@include screen(sm) {
+	.mb--sm-10 { margin-bottom: 10px; }
+	.mb--sm-20 { margin-bottom: 20px; }
+	.mb--sm-30 { margin-bottom: 30px; }	
+
+	.py--sm-0 {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+}
+
+@include screen(xs) {
+
+	.mb--xs-10 { margin-bottom: 10px; }
+
+	.txt--xxxl { font-size: 140px; }
+
+	.txt--xxl {	font-size: 53px; }
+
+	.mb--xs-30 { margin-bottom: 30px; }
+}
+
+@include screen(xxs) {}
+
+@include screen(xxxs) {}

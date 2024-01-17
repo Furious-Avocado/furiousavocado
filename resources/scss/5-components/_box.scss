@@ -1,0 +1,89 @@
+/*----------------------------------------------------------------------------*/
+/*#BOX STYLE*/
+/*----------------------------------------------------------------------------*/
+
+.testimonial-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+	p { word-break: break-word; }
+
+    &__stars {
+    	color: #F8A629;
+
+    	.empty-star { color: #DEE6EB; }
+    }
+
+    &__header {
+    	p {
+    		font-size: 16px;
+    		line-height: 26px;
+    		margin-bottom: 20px;
+    	}
+    }
+
+    &__content {
+    	display: flex;
+    	align-items: center;
+    	justify-content: space-between;
+    	gap: 10px;
+    	margin-bottom: 20px;
+
+    	h6 { 
+    		margin-bottom: 0; 
+    		position: relative;
+    		z-index: 9;
+    	}
+
+    	&::before {
+		    content: "";
+		    background-image: url(../images/quote.svg);
+		    background-position: center center;
+		    background-repeat: no-repeat;
+		    background-size: contain;
+		    width: 42px;
+		    height: 32px;
+		    display: block;
+		    position: absolute;
+		    left: 18px;
+		    top: 17px;
+		    pointer-events: none;
+    	}
+    }
+
+    &__footer {
+    	display: flex;
+    	align-items: center;
+    	gap: 10px;
+
+    	h6 {
+    		margin-bottom: 0;
+    		color: #DEE6EB;
+    	}
+    }
+}
+
+
+.info-box {
+	&__title {
+		position: relative;
+		border-bottom: 1px solid #dee6eb;
+    	padding-bottom: 15px;
+    	margin-bottom: 15px;
+
+    	&::after {
+    		content: "";
+    		position: absolute;
+    		bottom: -1px;
+    		left: 0;
+    		height: 1px;
+    		width: 100%;
+    		max-width: 60px;
+    		background-color: #F8A629;
+    	}
+	}
+}
