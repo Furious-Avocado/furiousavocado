@@ -30,6 +30,8 @@ facebook.com, 906822957681665, RESELLER, c3e20eee3f780d68
 facebook.com, 1533287104116768, RESELLER, c3e20eee3f780d68
 # Blast & Stack
 facebook.com, 728674385752999, RESELLER, c3e20eee3f780d68
+# Gummy Blast
+facebook.com, 981224890079506, RESELLER, c3e20eee3f780d68
 
 # END Facebook ownership confirmation
 #Facebook Ad Network
