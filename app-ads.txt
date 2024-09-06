@@ -32,8 +32,6 @@ facebook.com, 1533287104116768, RESELLER, c3e20eee3f780d68
 facebook.com, 728674385752999, RESELLER, c3e20eee3f780d68
 # Tile Piles
 facebook.com, 1467206100577657, RESELLER, c3e20eee3f780d68
-# Icecream Blast
-facebook.com, 2229138347465729, RESELLER, c3e20eee3f780d68
 
 # END Facebook ownership confirmation
 #Facebook Ad Network
