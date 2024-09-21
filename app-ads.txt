@@ -556,9 +556,9 @@ vungle.com, 59e4bb543f0fa9a20900afa3, DIRECT, c107d686becd2d77
 vungle.com, 561e8d936b8d90f61a00146c, DIRECT, c107d686becd2d77
 152media.info,152M312,RESELLER
 33across.com,0015a00002egvRSAAY,RESELLER,bbea06d9c4d2853c
-Adform.com,2742,RESELLER
-Pubmatic.com,162882,RESELLER,5d62403b186f2ace
-Pubmatic.com,163319,RESELLER,5d62403b186f2ace
+adform.com,2742,RESELLER
+pubmatic.com,162882,RESELLER,5d62403b186f2ace
+pubmatic.com,163319,RESELLER,5d62403b186f2ace
 adelement.com,30208,RESELLER
 adform.com,3083,RESELLER
 adform.com,3119,RESELLER,9f5210a2f0999e32
@@ -1100,7 +1100,7 @@ openx.com, 559792583, RESELLER, 6a698e2ec38604c6
 themediagrid.com, B8N9YH, RESELLER, 35d5010d7789b49d
 adbility-media.com, 187, RESELLER
 google.com, pub-7452201096415972, RESELLER, f08c47fec0942fa0
-smartclip.net, 8153, RESELLER
+smartclip.net, 14679, RESELLER
 stroeer.com, 17379, RESELLER
 orangeclickmedia.com, C-1181, RESELLER
 video.unrulymedia.com, 6111915185540403805, RESELLER
@@ -1705,10 +1705,10 @@ rubiconproject.com, 25064, RESELLER, 0bfd66d529a55807
 
 #InMobi
 inmobi.com, 0beed2bbc4d546b482bbae9d317f7c48, DIRECT, 83e75a7ae333ca9d
-inmobi.com, a5e661acdc384e91a79a58eb3418e99f, RESELLER, 83e75a7ae333ca9d
-inmobi.com, 6665857c95674e03b5cfa49d174d9601, RESELLER, 83e75a7ae333ca9d
 inmobi.com, 8db4f84a164540b887b178eb1a6e1721, RESELLER, 83e75a7ae333ca9d
 inmobi.com, 3af76ebd8ed44d04b01d827c6f3bb5b4, RESELLER, 83e75a7ae333ca9d
+inmobi.com, a5e661acdc384e91a79a58eb3418e99f, RESELLER, 83e75a7ae333ca9d
+inmobi.com, 6665857c95674e03b5cfa49d174d9601, RESELLER, 83e75a7ae333ca9d
 inmobi.com, 7c9e112a810a4b639bb6af3fa397233e, RESELLER, 83e75a7ae333ca9d
 rubiconproject.com, 11726, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 12266, RESELLER, 0bfd66d529a55807
@@ -1767,7 +1767,7 @@ app-stock.com, 315417, RESELLER
 markappmedia.site, 587286, RESELLER
 keenkale.com, 841, RESELLER
 admanmedia.com, 2063, RESELLER
-peak226.com, 12700, RESELLER
+peak226.com, 12904, RESELLER
 thunder-monetize.com, 3905806597, RESELLER
 rubiconproject.com, 26064, RESELLER, 0bfd66d529a55807
 bold-win.com, 148, RESELLER, 71746737d0bab951
@@ -1803,6 +1803,8 @@ freewheel.tv, 1606633, RESELLER
 e-planning.net, 608359bb987625b2, RESELLER, c1ba615865ed87b2
 magicmedia.ae, 6f828808, RESELLER
 onetag.com, 8d4bbebb8fa701e, RESELLER
+yieldmo.com, 3591550211052216798, RESELLER, 6a92c77cfc3d2258
+lijit.com, 500520, RESELLER, fafdf38b16bf6b2b
 
 #Mintegral
 mintegral.com, 18837, DIRECT, 0aeed750c80d6423
@@ -8095,6 +8097,7 @@ openx.com, 543878511, RESELLER, 6a698e2ec38604c6
 smaato.com, 1100047589, RESELLER, 07bcf65f187117b4
 inmobi.com, ba5fd3fb82c5412989b23c3eec71baf7,RESELLER,83e75a7ae333ca9d
 loopme.com, 9718, RESELLER, 6c8d5f95897a5a3b
+contextweb.com,563521, RESELLER, 89ff185a4c4e857c
 bigo.sg, 1114335, DIRECT
 
 #4.04.2024
