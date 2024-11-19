@@ -34,5 +34,7 @@ facebook.com, 728674385752999, RESELLER, c3e20eee3f780d68
 facebook.com, 1467206100577657, RESELLER, c3e20eee3f780d68
 # Tile Jam: Puzzle Quest!
 facebook.com, 453203900730516, RESELLER, c3e20eee3f780d68
+# Maze Craze
+facebook.com, 1386094539026197, RESELLER, c3e20eee3f780d68
 
 # END Facebook ownership confirmation
