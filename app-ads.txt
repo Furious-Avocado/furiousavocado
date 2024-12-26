@@ -36,6 +36,8 @@ facebook.com, 1467206100577657, RESELLER, c3e20eee3f780d68
 facebook.com, 453203900730516, RESELLER, c3e20eee3f780d68
 # Maze Craze
 facebook.com, 1766493204125042, RESELLER, c3e20eee3f780d68
+# Shelf Jam
+facebook.com, 1597074241182082, RESELLER, c3e20eee3f780d68
 
 # END Facebook ownership confirmation
 #Facebook Ad Network
