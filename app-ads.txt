@@ -1038,7 +1038,9 @@ smartadserver.com, 4610, RESELLER, 060d053dcf45cbf3
 smartclip.net, 27985, RESELLER
 thebrave.io, 1234634, RESELLER, c25b2154543746ac
 thunder-monetize.com, 5257091605, RESELLER
+thunder-monetize.com, 8221217003, RESELLER
 toponad.com, 165535463cfb70, RESELLER, 1d49fe424a1a456d
+tradplusad.com, b3fca24bd11c1242, RESELLER
 triplelift.com, 12158, RESELLER, 6c33edb13117fd86
 triplelift.com, 12908, RESELLER, 6c33edb13117fd86
 triplelift.com, 13883, RESELLER, 6c33edb13117fd86
@@ -8001,6 +8003,8 @@ rixengine.com, 130103, RESELLER
 supply.colossusssp.com, 821, DIRECT, 6c5b49d96ec1b458
 xandr.com, 10490, RESELLER
 yieldmo.com, 3078438591206989879, RESELLER
+pubeasy.io, 110013, RESELLER
+openx.com, 561365249, RESELLER, 6a698e2ec38604c6
 bigo.sg, 1114335, DIRECT
 
 #4.04.2024
