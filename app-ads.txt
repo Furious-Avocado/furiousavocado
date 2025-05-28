@@ -42,6 +42,8 @@ facebook.com, 1597074241182082, RESELLER, c3e20eee3f780d68
 facebook.com, 1212369523553427, RESELLER, c3e20eee3f780d68
 # Jelly Trails
 facebook.com, 2144318832653140, RESELLER, c3e20eee3f780d68
+# Slide N Drop
+facebook.com, 1262399692120813, RESELLER, c3e20eee3f780d68
 
 # END Facebook ownership confirmation
 OWNERDOMAIN=crazylabs.com
