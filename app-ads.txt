@@ -2850,8 +2850,6 @@ smartadserver.com, 4247, RESELLER, 060d053dcf45cbf3 #CAD
 smartadserver.com, 4228, RESELLER, 060d053dcf45cbf3 #USD_CTV
 rubiconproject.com, 25198, RESELLER, 0bfd66d529a55807
 
-startapp.com, 112360001, DIRECT
-
 #Fyber
 fyber.com, 213358, DIRECT,1ad675c9de6b5176
 33across.com,0010b00002Xbn7QAAR,RESELLER,bbea06d9c4d2853c
