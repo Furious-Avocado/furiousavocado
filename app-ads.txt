@@ -79,6 +79,23 @@ axonix.com, 59150, RESELLER, bc385f2b4a87b721
 cloudx.io, xDR1xV-K_G_CPJa9fYtj3, DIRECT
 smadex.com, 2ae8ccc7-d5be-4445-ac6e-df234e9a6a11, RESELLER
 admanmedia.com, 2447, RESELLER
+amxrtb.com, 105199820, RESELLER
+bidmachine.io, 1372, RESELLER
+media.net, 8CU58PCO4, RESELLER
+minutemedia.com, 01ky50t6qtdq, RESELLER
+richaudience.com, iKKFhsvJ2v, RESELLER
+rtbhouse.com, v9OtJDzCWTKAPdzbpmOI, RESELLER
+xandr.com, 18048, RESELLER
+zetaglobal.net, 757, RESELLER
+taurusx.com, 80669, RESELLER
+bidmachine.io, 1406, RESELLER
+spinx.biz, 1373698941, RESELLER
+iion.io, 10364, RESELLER
+app-stock.com, 731136, RESELLER
+playdigo.com, 4213, RESELLER
+zmaticoo.com, 51351021, RESELLER
+sharethrough.com, 4457, RESELLER
+sharethrough.com, 4457-OB, RESELLER
 
 #PubMatic
 pubmatic.com, 166752, DIRECT, 5d62403b186f2ace
